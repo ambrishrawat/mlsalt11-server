@@ -1,0 +1,26 @@
+#!/bin/tcsh
+# set verbose
+
+# -------------------------------------------------------------
+# Set priority at which processes are run
+# -------------------------------------------------------------
+
+set NICE = 0
+set HEQUEUE = high
+set HEQPROJ = babel
+
+set basedir    = base
+
+# -------------------------------------------------------------
+# SCP file definitions
+# -------------------------------------------------------------
+
+set HCTRACE = 1
+set TESTDATALIST = lib/flists.plp/train.scp
+set HCCONFIG  = ${basedir}/lib/cfgs/cmn-plp.cfg
+set HCCMN = TRUE
+
+#                  BPL101-53464-20111021-202951-sc_SD1XXXX_0001357_0001396.plp
+set HCSPKRMASK  = '%%%%%%-?????%%%%%%%%%%%%%%%%???_*' 
+set HCPATHMASK  = '%%%%%%*' 
+set HCBIN = base/bin/HCompV

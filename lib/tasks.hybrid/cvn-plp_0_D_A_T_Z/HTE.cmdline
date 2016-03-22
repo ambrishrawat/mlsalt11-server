@@ -1,0 +1,2 @@
+ set TESTDATALIST = lib/flists.test/YTBGdev.side.scp
+ set HCCONFIG = local-dnn/lib/cfgs/cvn-plp_0_D_A_T_Z-datemask.cfg

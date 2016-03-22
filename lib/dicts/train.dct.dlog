@@ -1,0 +1,66 @@
+WARNING: no script file global.ded
+WARNING: no script file lib/dicts/work/train.BN.dct.ded
+WARNING: no script file lib/dicts/work/train.g2p.dct.ded
+Missing Words
+-------------
+</s>
+<s>
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+train.BN.dct     52401      52401      57603      57603
+train.g2p.dc      6600       6599      29086      29085
+   train.dct     59000      59000      86688      84619
+
+59002 words required, 2 missing
+
+New Phone Usage Counts
+---------------------
+  1. k     : 26053
+  2. ao    :  6806
+  3. z     : 20436
+  4. ax    : 36980
+  5. m     : 18137
+  6. n     : 38689
+  7. en    :   635
+  8. t     : 33282
+  9. ih    : 27963
+ 10. l     : 24977
+ 11. ey    : 11129
+ 12. aa    : 15535
+ 13. hh    :  4633
+ 14. ow    : 10343
+ 15. em    :   606
+ 16. ae    : 15509
+ 17. ah    :  6570
+ 18. r     : 30589
+ 19. d     : 21607
+ 20. v     :  7301
+ 21. axr   : 11330
+ 22. er    :  3607
+ 23. s     : 33305
+ 24. iy    : 21966
+ 25. b     : 12548
+ 26. ix    :  5708
+ 27. ng    :  7163
+ 28. ay    :  7831
+ 29. eh    : 15788
+ 30. sh    :  6103
+ 31. el    :  4672
+ 32. uw    :  6734
+ 33. uh    :  1568
+ 34. y     :  3630
+ 35. th    :  1730
+ 36. jh    :  4544
+ 37. zh    :   494
+ 38. g     :  7521
+ 39. aw    :  1978
+ 40. w     :  5128
+ 41. p     : 13685
+ 42. dh    :   449
+ 43. ch    :  2876
+ 44. f     :  8574
+ 45. oy    :   796
+
+Dictionary lib/dicts/train.dct created

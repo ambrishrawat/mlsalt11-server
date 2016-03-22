@@ -1,0 +1,5 @@
+~r "regtree_grph_2.tree"
+<BASECLASS>~b "regtree_grph_2.base"
+<NODE> 1 2 2 3 
+<TNODE> 2 1 1
+<TNODE> 3 1 2

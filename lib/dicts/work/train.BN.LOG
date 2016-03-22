@@ -1,0 +1,26 @@
+base/bin/HDMan -A -D -V -C base/lib/cfgs/hled.cfg -T 1 -w lib/wlists/train+hash.lst -l lib/dicts/work/train.BN.dlog lib/dicts/work/train.BN.dct /home/vectra1/wsj/WSJ01/convert/lib/dicts-source/cuhtk-base.dct 
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+#                 LABELSQUOTE                    \
+# HSHELL          NONUMESCAPES                TRUE
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HDMan      3.4.1      CUED   12/03/09  : $Id: HDMan.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+
+Output dictionary lib/dicts/work/train.BN.dct opened 
+Source dictionary /home/vectra1/wsj/WSJ01/convert/lib/dicts-source/cuhtk-base.dct opened 
+Dictionary lib/dicts/work/train.BN.dct created - 59002 words processed, 6601 missing
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+                  LABELSQUOTE                    \
+  HSHELL          NONUMESCAPES                TRUE
+

@@ -1,0 +1,2 @@
+ set TESTDATALIST = lib/flists.test/YTBGdev.side.scp
+ set HCCONFIG = local-dnn/lib/cfgs/cmn-plp.cfg
