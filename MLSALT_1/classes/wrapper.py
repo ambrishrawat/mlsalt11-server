@@ -1,7 +1,7 @@
 import os
 import subprocess
 import re
-os.chdir('/home/vgj21/MLSALT2/major')
+#os.chdir('/home/ar773/MLSALT2/major')
 
 def score(parent_dir, show_list_tag, mlf_location):
     # inside parent_dir there are folders containing one-best-lists produced by decoding one model on all shows, it will search the directory for all of the shows

@@ -1,6 +1,6 @@
-import wrapper as htk
-from utils import *
-
+import classes.wrapper as htk
+from classes.utils import *
+from classes.MLF import MLF
 def exp1():
 	##
 	pass
@@ -66,6 +66,46 @@ def exp6():
 			episode = episode.strip()
 			exp6_wrapper(episode)
 		htk.score('plps/plp-exp6',epi_list,'rescore')
+
+def exp_mlf():
+	mlf1_addr = './models/dev03_DEV001-20010117-XX2000/plp-decode/rescore.mlf'
+	mlf1 = MLF()
+	mlf1.gendict(mlf1_addr)
+
+	mlf2_addr = './models/dev03_DEV001-20010117-XX2000/grph-plp-decode/rescore.mlf'
+	mlf2 = MLF()
+	mlf2.gendict(mlf2_addr)
+
+	MLF.levenshtein(mlf1.return_dict(),mlf2.return_dict())
+
+	mlf3 = MLF()
+	mlf3.assign_dict(MLF.merge_mlf(mlf1,mlf2))
+	pass
+
+
+def step1():
+	'''
+	Generate the interpolated language model on YouTube devlopment set (Training)
+	'''
+	parent_dir = 'model'
+	pass
+
+
+def step2():
+	'''
+	Generate episode specific interpolated language models and get the updated lattices
+	'''
+	pass
+
+
+
+def step3():
+	'''
+	Generate episode specific interpolated language models and get the updated lattices
+	'''
+	pass
+
+
 if __name__ == "__main__":
-	exp6()
+	exp_mlf()
 	pass

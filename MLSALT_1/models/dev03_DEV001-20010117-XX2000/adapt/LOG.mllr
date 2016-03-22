@@ -1,0 +1,625 @@
+base/bin/HERest -A -D -H hmms/MMF.plp -T 1 -C lib/cfgs/hvite.cfg -t 250.0 250.0 1000.1 -a -J plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms cmllr -E plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms cmllr -J lib/classes -C lib/cfgs/mllr.cfg -h %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_* -K plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms mllr -u a -I plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/model.mlf -S plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/flists/dev03_DEV001-20010117-XX2000.scp hmms/xwrd.clustered.plp 
+
+HTK Configuration Parameters[25]
+  Module/Tool     Parameter                  Value
+#                 OUTXFORMMASK    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+#                 PAXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+#                 INXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+# HMODEL          TRACE                        512
+# HMODEL          SAVEBINARY                 FALSE
+# HADAPT          ADAPTKIND                   TREE
+# HADAPT          SPLITTHRESH          1000.000000
+# HADAPT          REGTREE           regtree_2.tree
+# HADAPT          USEBIAS                     TRUE
+# HADAPT          TRANSKIND               MLLRMEAN
+# HADAPT          TRACE                         61
+#                 LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 RAWMITFORMAT                TRUE
+#                 HNETOFILTER       gzip -c > $.gz
+#                 HNETFILTER        gunzip -c $.gz
+#                 HLANGMODFILTER    gunzip -c $.gz
+# HNET            FORCECXTEXP                 TRUE
+# HNET            ALLOWXWRDEXP                TRUE
+# HNET            TRACE                          1
+# HNET            FACTORLM                    TRUE
+# HREC            FORCEOUT                    TRUE
+# HPARM           TARGETKIND         PLP_0_D_A_T_Z
+
+HERest  ML Updating: XForms 
+
+ System is SHARED
+93236 Logical/24908 Physical Models Loaded, VecSize=39
+1 MMF input files
+  Using baseclass macro "regtree_2.base" from file lib/classes/regtree_2.base
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Attached 96021 XFormInfo structures
+Attached 96021 RegAcc structures
+Pruning-On[250.0 250.0 1000.1]
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00001-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00001-20010117-XX2000-en.cmllr
+Attached 96021 AInfo structures
+Created 1 ObsCaches (of 2 possible)
+Attached 96021 MInfo structures
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00001-20010117-XX2000-en
+  Using xform macro "DEV001-00001-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00001-20010117-XX2000-en.cmllr
+Attached 96021 AInfo structures
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0068025_0069727; Label DEV001-20010117-XX2000-en_FFWXXXX_0068025_0069727.lab
+ Utterance prob per frame = -4.401798e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0083726_0085429; Label DEV001-20010117-XX2000-en_FFWXXXX_0083726_0085429.lab
+ Utterance prob per frame = -4.530228e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0088514_0089663; Label DEV001-20010117-XX2000-en_FFWXXXX_0088514_0089663.lab
+ Utterance prob per frame = -4.457683e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0091686_0092731; Label DEV001-20010117-XX2000-en_FFWXXXX_0091686_0092731.lab
+ Utterance prob per frame = -4.388926e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0092731_0094302; Label DEV001-20010117-XX2000-en_FFWXXXX_0092731_0094302.lab
+ Utterance prob per frame = -4.409819e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0150000_0150242; Label DEV001-20010117-XX2000-en_FFWXXXX_0150000_0150242.lab
+ Utterance prob per frame = -4.533466e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0152342_0152836; Label DEV001-20010117-XX2000-en_FFWXXXX_0152342_0152836.lab
+ Utterance prob per frame = -4.385902e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0012757_0014112; Label DEV001-20010117-XX2000-en_MFWXXXX_0012757_0014112.lab
+ Utterance prob per frame = -4.170743e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0014112_0016565; Label DEV001-20010117-XX2000-en_MFWXXXX_0014112_0016565.lab
+ Utterance prob per frame = -3.969930e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0025913_0028055; Label DEV001-20010117-XX2000-en_MFWXXXX_0025913_0028055.lab
+ Utterance prob per frame = -4.117884e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0028055_0029446; Label DEV001-20010117-XX2000-en_MFWXXXX_0028055_0029446.lab
+ Utterance prob per frame = -4.134732e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0035654_0035890; Label DEV001-20010117-XX2000-en_MFWXXXX_0035654_0035890.lab
+ Utterance prob per frame = -3.681422e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0178428_0178746; Label DEV001-20010117-XX2000-en_MFWXXXX_0178428_0178746.lab
+ Utterance prob per frame = -3.023351e+01
+Generating transform DEV001-00001-20010117-XX2000-en (1)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (15806.612305)
+Node 2 (1842.305054)
+Using node 2 (1842.305054) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1842.304794 observations
+Node 3 (13964.307617)
+Using node 3 (13964.307617) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 13964.557181 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00002-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00002-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00002-20010117-XX2000-en
+  Using xform macro "DEV001-00002-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00002-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0036973_0037468; Label DEV001-20010117-XX2000-en_FFWXXXX_0036973_0037468.lab
+ Utterance prob per frame = -4.383012e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0065242_0067229; Label DEV001-20010117-XX2000-en_FFWXXXX_0065242_0067229.lab
+ Utterance prob per frame = -4.365768e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0076020_0078926; Label DEV001-20010117-XX2000-en_FFWXXXX_0076020_0078926.lab
+ Utterance prob per frame = -4.461809e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0080252_0081413; Label DEV001-20010117-XX2000-en_FFWXXXX_0080252_0081413.lab
+ Utterance prob per frame = -4.744964e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0081413_0082437; Label DEV001-20010117-XX2000-en_FFWXXXX_0081413_0082437.lab
+ Utterance prob per frame = -4.347253e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0115617_0116135; Label DEV001-20010117-XX2000-en_FFWXXXX_0115617_0116135.lab
+ Utterance prob per frame = -4.414569e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0116680_0119075; Label DEV001-20010117-XX2000-en_FFWXXXX_0116680_0119075.lab
+ Utterance prob per frame = -4.422410e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0131499_0131787; Label DEV001-20010117-XX2000-en_FFWXXXX_0131499_0131787.lab
+ Utterance prob per frame = -4.013654e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0016565_0017750; Label DEV001-20010117-XX2000-en_MFWXXXX_0016565_0017750.lab
+ Utterance prob per frame = -3.929593e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0022270_0023270; Label DEV001-20010117-XX2000-en_MFWXXXX_0022270_0023270.lab
+ Utterance prob per frame = -3.962631e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0023270_0023529; Label DEV001-20010117-XX2000-en_MFWXXXX_0023270_0023529.lab
+ Utterance prob per frame = -3.930053e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0023529_0023879; Label DEV001-20010117-XX2000-en_MFWXXXX_0023529_0023879.lab
+ Utterance prob per frame = -3.767294e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0024618_0025188; Label DEV001-20010117-XX2000-en_MFWXXXX_0024618_0025188.lab
+ Utterance prob per frame = -4.063177e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0025188_0025913; Label DEV001-20010117-XX2000-en_MFWXXXX_0025188_0025913.lab
+ Utterance prob per frame = -4.038205e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0029446_0031182; Label DEV001-20010117-XX2000-en_MFWXXXX_0029446_0031182.lab
+ Utterance prob per frame = -4.046920e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0034229_0034716; Label DEV001-20010117-XX2000-en_MFWXXXX_0034229_0034716.lab
+ Utterance prob per frame = -3.935785e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0034716_0035654; Label DEV001-20010117-XX2000-en_MFWXXXX_0034716_0035654.lab
+ Utterance prob per frame = -3.867443e+01
+Generating transform DEV001-00002-20010117-XX2000-en (2)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (18032.671875)
+Node 2 (1892.404663)
+Using node 2 (1892.404663) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1892.405087 observations
+Node 3 (16140.267578)
+Using node 3 (16140.267578) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 16140.652280 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00003-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00003-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00003-20010117-XX2000-en
+  Using xform macro "DEV001-00003-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00003-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0071230_0071778; Label DEV001-20010117-XX2000-en_FFWXXXX_0071230_0071778.lab
+ Utterance prob per frame = -4.401578e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0071778_0073237; Label DEV001-20010117-XX2000-en_FFWXXXX_0071778_0073237.lab
+ Utterance prob per frame = -4.487217e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0074371_0076020; Label DEV001-20010117-XX2000-en_FFWXXXX_0074371_0076020.lab
+ Utterance prob per frame = -4.299357e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0078926_0080252; Label DEV001-20010117-XX2000-en_FFWXXXX_0078926_0080252.lab
+ Utterance prob per frame = -4.390280e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0005922_0008730; Label DEV001-20010117-XX2000-en_MFWXXXX_0005922_0008730.lab
+ Utterance prob per frame = -3.927671e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0009943_0011247; Label DEV001-20010117-XX2000-en_MFWXXXX_0009943_0011247.lab
+ Utterance prob per frame = -3.959585e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0011247_0012757; Label DEV001-20010117-XX2000-en_MFWXXXX_0011247_0012757.lab
+ Utterance prob per frame = -3.950049e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0054245_0056389; Label DEV001-20010117-XX2000-en_MFWXXXX_0054245_0056389.lab
+ Utterance prob per frame = -3.847243e+01
+Generating transform DEV001-00003-20010117-XX2000-en (3)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (12750.545898)
+Node 2 (1093.732422)
+Using node 2 (1093.732422) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1093.732183 observations
+Node 3 (11656.813477)
+Using node 3 (11656.813477) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 11657.051528 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00004-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00004-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00004-20010117-XX2000-en
+  Using xform macro "DEV001-00004-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00004-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0000000_0000492; Label DEV001-20010117-XX2000-en_FFWXXXX_0000000_0000492.lab
+ Utterance prob per frame = -3.931609e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0000701_0001230; Label DEV001-20010117-XX2000-en_FFWXXXX_0000701_0001230.lab
+ Utterance prob per frame = -3.917414e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0001701_0002049; Label DEV001-20010117-XX2000-en_FFWXXXX_0001701_0002049.lab
+ Utterance prob per frame = -4.357355e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0035890_0036973; Label DEV001-20010117-XX2000-en_FFWXXXX_0035890_0036973.lab
+ Utterance prob per frame = -4.253431e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0121415_0123065; Label DEV001-20010117-XX2000-en_FFWXXXX_0121415_0123065.lab
+ Utterance prob per frame = -4.457595e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0123934_0124987; Label DEV001-20010117-XX2000-en_FFWXXXX_0123934_0124987.lab
+ Utterance prob per frame = -4.357874e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0175386_0175691; Label DEV001-20010117-XX2000-en_FFWXXXX_0175386_0175691.lab
+ Utterance prob per frame = -4.141688e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0179193_0180999; Label DEV001-20010117-XX2000-en_FFWXXXX_0179193_0180999.lab
+ Utterance prob per frame = -4.004164e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0024253_0024618; Label DEV001-20010117-XX2000-en_MFWXXXX_0024253_0024618.lab
+ Utterance prob per frame = -4.129199e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0067229_0068025; Label DEV001-20010117-XX2000-en_MFWXXXX_0067229_0068025.lab
+ Utterance prob per frame = -3.525314e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0069727_0071230; Label DEV001-20010117-XX2000-en_MFWXXXX_0069727_0071230.lab
+ Utterance prob per frame = -3.829654e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0073237_0074371; Label DEV001-20010117-XX2000-en_MFWXXXX_0073237_0074371.lab
+ Utterance prob per frame = -3.731738e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0082437_0083726; Label DEV001-20010117-XX2000-en_MFWXXXX_0082437_0083726.lab
+ Utterance prob per frame = -3.638694e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0085429_0086154; Label DEV001-20010117-XX2000-en_MFWXXXX_0085429_0086154.lab
+ Utterance prob per frame = -3.533485e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0086154_0088514; Label DEV001-20010117-XX2000-en_MFWXXXX_0086154_0088514.lab
+ Utterance prob per frame = -3.433937e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0123422_0123441; Label DEV001-20010117-XX2000-en_MFWXXXX_0123422_0123441.lab
+ Utterance prob per frame = -4.049726e+01
+Generating transform DEV001-00004-20010117-XX2000-en (4)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (15466.574219)
+Node 2 (3755.804932)
+Using node 2 (3755.804932) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 3755.803876 observations
+Node 3 (11710.769531)
+Using node 3 (11710.769531) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 11710.983201 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00005-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00005-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00005-20010117-XX2000-en
+  Using xform macro "DEV001-00005-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00005-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0146322_0146659; Label DEV001-20010117-XX2000-en_FFWXXXX_0146322_0146659.lab
+ Utterance prob per frame = -4.334216e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0162300_0163422; Label DEV001-20010117-XX2000-en_FFWXXXX_0162300_0163422.lab
+ Utterance prob per frame = -3.918614e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0163422_0165135; Label DEV001-20010117-XX2000-en_FFWXXXX_0163422_0165135.lab
+ Utterance prob per frame = -4.037391e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0167551_0168717; Label DEV001-20010117-XX2000-en_FFWXXXX_0167551_0168717.lab
+ Utterance prob per frame = -4.032318e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0172865_0175099; Label DEV001-20010117-XX2000-en_FFWXXXX_0172865_0175099.lab
+ Utterance prob per frame = -4.203701e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0002506_0003705; Label DEV001-20010117-XX2000-en_MFWXXXX_0002506_0003705.lab
+ Utterance prob per frame = -4.047520e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0003705_0005101; Label DEV001-20010117-XX2000-en_MFWXXXX_0003705_0005101.lab
+ Utterance prob per frame = -4.069617e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0043208_0045175; Label DEV001-20010117-XX2000-en_MFWXXXX_0043208_0045175.lab
+ Utterance prob per frame = -4.036013e+01
+Generating transform DEV001-00005-20010117-XX2000-en (5)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (11137.461914)
+Node 2 (1045.423462)
+Using node 2 (1045.423462) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1045.423579 observations
+Node 3 (10092.038086)
+Using node 3 (10092.038086) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 10092.206185 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00006-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00006-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00006-20010117-XX2000-en
+  Using xform macro "DEV001-00006-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00006-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0149113_0150000; Label DEV001-20010117-XX2000-en_FFWXXXX_0149113_0150000.lab
+ Utterance prob per frame = -4.362536e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0150242_0152342; Label DEV001-20010117-XX2000-en_FFWXXXX_0150242_0152342.lab
+ Utterance prob per frame = -4.187345e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0153855_0155569; Label DEV001-20010117-XX2000-en_FFWXXXX_0153855_0155569.lab
+ Utterance prob per frame = -4.255338e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0157149_0157550; Label DEV001-20010117-XX2000-en_FFWXXXX_0157149_0157550.lab
+ Utterance prob per frame = -4.219335e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0159926_0162300; Label DEV001-20010117-XX2000-en_FFWXXXX_0159926_0162300.lab
+ Utterance prob per frame = -4.201102e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0168717_0169787; Label DEV001-20010117-XX2000-en_FFWXXXX_0168717_0169787.lab
+ Utterance prob per frame = -4.241964e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0040601_0042202; Label DEV001-20010117-XX2000-en_MFWXXXX_0040601_0042202.lab
+ Utterance prob per frame = -4.338252e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0042202_0043208; Label DEV001-20010117-XX2000-en_MFWXXXX_0042202_0043208.lab
+ Utterance prob per frame = -4.275907e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0045175_0045727; Label DEV001-20010117-XX2000-en_MFWXXXX_0045175_0045727.lab
+ Utterance prob per frame = -4.410969e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0048375_0049661; Label DEV001-20010117-XX2000-en_MFWXXXX_0048375_0049661.lab
+ Utterance prob per frame = -4.144866e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0050749_0051557; Label DEV001-20010117-XX2000-en_MFWXXXX_0050749_0051557.lab
+ Utterance prob per frame = -4.265460e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0051557_0054245; Label DEV001-20010117-XX2000-en_MFWXXXX_0051557_0054245.lab
+ Utterance prob per frame = -4.344307e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0058831_0059786; Label DEV001-20010117-XX2000-en_MFWXXXX_0058831_0059786.lab
+ Utterance prob per frame = -4.313816e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0060244_0061550; Label DEV001-20010117-XX2000-en_MFWXXXX_0060244_0061550.lab
+ Utterance prob per frame = -4.223322e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0062973_0063552; Label DEV001-20010117-XX2000-en_MFWXXXX_0062973_0063552.lab
+ Utterance prob per frame = -4.279664e+01
+Generating transform DEV001-00006-20010117-XX2000-en (6)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (19333.796875)
+Node 2 (1534.434326)
+Using node 2 (1534.434326) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1534.434913 observations
+Node 3 (17799.363281)
+Using node 3 (17799.363281) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 17799.822974 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00007-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00007-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00007-20010117-XX2000-en
+  Using xform macro "DEV001-00007-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00007-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0039892_0040149; Label DEV001-20010117-XX2000-en_FFWXXXX_0039892_0040149.lab
+ Utterance prob per frame = -4.889451e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0095757_0097335; Label DEV001-20010117-XX2000-en_FFWXXXX_0095757_0097335.lab
+ Utterance prob per frame = -4.441365e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0106906_0108175; Label DEV001-20010117-XX2000-en_FFWXXXX_0106906_0108175.lab
+ Utterance prob per frame = -4.507442e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0110137_0111131; Label DEV001-20010117-XX2000-en_FFWXXXX_0110137_0111131.lab
+ Utterance prob per frame = -4.362748e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0115240_0115617; Label DEV001-20010117-XX2000-en_FFWXXXX_0115240_0115617.lab
+ Utterance prob per frame = -4.542398e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0045727_0047259; Label DEV001-20010117-XX2000-en_MFWXXXX_0045727_0047259.lab
+ Utterance prob per frame = -4.030092e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0047259_0048375; Label DEV001-20010117-XX2000-en_MFWXXXX_0047259_0048375.lab
+ Utterance prob per frame = -3.748262e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0049661_0050749; Label DEV001-20010117-XX2000-en_MFWXXXX_0049661_0050749.lab
+ Utterance prob per frame = -3.671253e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0056389_0058831; Label DEV001-20010117-XX2000-en_MFWXXXX_0056389_0058831.lab
+ Utterance prob per frame = -3.868043e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0061550_0062973; Label DEV001-20010117-XX2000-en_MFWXXXX_0061550_0062973.lab
+ Utterance prob per frame = -3.718793e+01
+Generating transform DEV001-00007-20010117-XX2000-en (7)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (12080.336914)
+Node 2 (1296.155151)
+Using node 2 (1296.155151) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1296.154974 observations
+Node 3 (10784.181641)
+Using node 3 (10784.181641) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 10784.371267 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00008-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00008-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00008-20010117-XX2000-en
+  Using xform macro "DEV001-00008-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00008-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0017750_0018071; Label DEV001-20010117-XX2000-en_FFWXXXX_0017750_0018071.lab
+ Utterance prob per frame = -4.427864e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0018071_0019834; Label DEV001-20010117-XX2000-en_FFWXXXX_0018071_0019834.lab
+ Utterance prob per frame = -4.315549e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0019834_0020455; Label DEV001-20010117-XX2000-en_FFWXXXX_0019834_0020455.lab
+ Utterance prob per frame = -4.397930e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0020939_0022270; Label DEV001-20010117-XX2000-en_FFWXXXX_0020939_0022270.lab
+ Utterance prob per frame = -4.232979e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0008730_0009943; Label DEV001-20010117-XX2000-en_MFWXXXX_0008730_0009943.lab
+ Utterance prob per frame = -3.670415e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0031182_0034010; Label DEV001-20010117-XX2000-en_MFWXXXX_0031182_0034010.lab
+ Utterance prob per frame = -4.155901e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0034010_0034229; Label DEV001-20010117-XX2000-en_MFWXXXX_0034010_0034229.lab
+ Utterance prob per frame = -4.073832e+01
+Generating transform DEV001-00008-20010117-XX2000-en (8)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (8299.190430)
+Node 2 (929.178894)
+Node 3 (7370.011719)
+Using node 3 (7370.011719) to adapt baseclasses: 
+ 2
+Estimated XForm 1 using 7370.081095 observations
+Using node 1 (8299.190430) to adapt baseclasses: 
+ 1
+Estimated XForm 2 using 8299.259857 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00009-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00009-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00009-20010117-XX2000-en
+  Using xform macro "DEV001-00009-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00009-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0101586_0102044; Label DEV001-20010117-XX2000-en_FFWXXXX_0101586_0102044.lab
+ Utterance prob per frame = -4.293120e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0102044_0103457; Label DEV001-20010117-XX2000-en_FFWXXXX_0102044_0103457.lab
+ Utterance prob per frame = -4.553129e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0105551_0106906; Label DEV001-20010117-XX2000-en_FFWXXXX_0105551_0106906.lab
+ Utterance prob per frame = -4.218449e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0131787_0132786; Label DEV001-20010117-XX2000-en_FFWXXXX_0131787_0132786.lab
+ Utterance prob per frame = -4.020183e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0155569_0157149; Label DEV001-20010117-XX2000-en_MFWXXXX_0155569_0157149.lab
+ Utterance prob per frame = -3.761796e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0157550_0159926; Label DEV001-20010117-XX2000-en_MFWXXXX_0157550_0159926.lab
+ Utterance prob per frame = -3.772573e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0169787_0170731; Label DEV001-20010117-XX2000-en_MFWXXXX_0169787_0170731.lab
+ Utterance prob per frame = -3.700333e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0170731_0172865; Label DEV001-20010117-XX2000-en_MFWXXXX_0170731_0172865.lab
+ Utterance prob per frame = -3.840874e+01
+Generating transform DEV001-00009-20010117-XX2000-en (9)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (11262.164062)
+Node 2 (1235.716431)
+Using node 2 (1235.716431) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1235.716159 observations
+Node 3 (10026.447266)
+Using node 3 (10026.447266) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 10026.616018 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00010-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00010-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00010-20010117-XX2000-en
+  Using xform macro "DEV001-00010-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00010-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0143230_0144629; Label DEV001-20010117-XX2000-en_FFWXXXX_0143230_0144629.lab
+ Utterance prob per frame = -4.154767e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0144629_0146322; Label DEV001-20010117-XX2000-en_FFWXXXX_0144629_0146322.lab
+ Utterance prob per frame = -4.259766e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0146659_0149113; Label DEV001-20010117-XX2000-en_FFWXXXX_0146659_0149113.lab
+ Utterance prob per frame = -4.284045e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0119075_0121027; Label DEV001-20010117-XX2000-en_MFWXXXX_0119075_0121027.lab
+ Utterance prob per frame = -4.581068e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0135629_0136894; Label DEV001-20010117-XX2000-en_MFWXXXX_0135629_0136894.lab
+ Utterance prob per frame = -4.172454e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0136894_0137935; Label DEV001-20010117-XX2000-en_MFWXXXX_0136894_0137935.lab
+ Utterance prob per frame = -4.187769e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0141204_0143230; Label DEV001-20010117-XX2000-en_MFWXXXX_0141204_0143230.lab
+ Utterance prob per frame = -4.274845e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0165135_0167551; Label DEV001-20010117-XX2000-en_MFWXXXX_0165135_0167551.lab
+ Utterance prob per frame = -4.306403e+01
+Generating transform DEV001-00010-20010117-XX2000-en (10)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (14247.907227)
+Node 2 (1926.202759)
+Using node 2 (1926.202759) to adapt baseclasses: 
+ 1
+Estimated XForm 1 using 1926.203117 observations
+Node 3 (12321.704102)
+Using node 3 (12321.704102) to adapt baseclasses: 
+ 2
+Estimated XForm 2 using 12321.880656 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00011-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00011-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00011-20010117-XX2000-en
+  Using xform macro "DEV001-00011-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00011-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0127887_0130462; Label DEV001-20010117-XX2000-en_FFWXXXX_0127887_0130462.lab
+ Utterance prob per frame = -4.112403e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0130462_0131499; Label DEV001-20010117-XX2000-en_FFWXXXX_0130462_0131499.lab
+ Utterance prob per frame = -3.950341e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0132786_0135629; Label DEV001-20010117-XX2000-en_FFWXXXX_0132786_0135629.lab
+ Utterance prob per frame = -4.104952e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0137935_0139120; Label DEV001-20010117-XX2000-en_FFWXXXX_0137935_0139120.lab
+ Utterance prob per frame = -4.072805e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0139120_0141204; Label DEV001-20010117-XX2000-en_FFWXXXX_0139120_0141204.lab
+ Utterance prob per frame = -4.026051e+01
+Generating transform DEV001-00011-20010117-XX2000-en (11)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (9723.739258)
+Node 2 (668.650085)
+Node 3 (9055.088867)
+Using node 3 (9055.088867) to adapt baseclasses: 
+ 2
+Estimated XForm 1 using 9055.190598 observations
+Using node 1 (9723.739258) to adapt baseclasses: 
+ 1
+Estimated XForm 2 using 9723.840665 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00012-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00012-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00012-20010117-XX2000-en
+  Using xform macro "DEV001-00012-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00012-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0037850_0038724; Label DEV001-20010117-XX2000-en_FFWXXXX_0037850_0038724.lab
+ Utterance prob per frame = -4.230282e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0040149_0040601; Label DEV001-20010117-XX2000-en_FFWXXXX_0040149_0040601.lab
+ Utterance prob per frame = -4.567449e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0063552_0065242; Label DEV001-20010117-XX2000-en_FFWXXXX_0063552_0065242.lab
+ Utterance prob per frame = -4.315814e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0116135_0116680; Label DEV001-20010117-XX2000-en_FFWXXXX_0116135_0116680.lab
+ Utterance prob per frame = -4.300034e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0124987_0126183; Label DEV001-20010117-XX2000-en_FFWXXXX_0124987_0126183.lab
+ Utterance prob per frame = -4.311820e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0126183_0127887; Label DEV001-20010117-XX2000-en_FFWXXXX_0126183_0127887.lab
+ Utterance prob per frame = -4.362326e+01
+Generating transform DEV001-00012-20010117-XX2000-en (12)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (6464.758789)
+Node 2 (595.442017)
+Node 3 (5869.316895)
+Using node 3 (5869.316895) to adapt baseclasses: 
+ 2
+Estimated XForm 1 using 5869.353101 observations
+Using node 1 (6464.758789) to adapt baseclasses: 
+ 1
+Estimated XForm 2 using 6464.795129 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00013-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00013-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00013-20010117-XX2000-en
+  Using xform macro "DEV001-00013-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00013-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0038724_0039892; Label DEV001-20010117-XX2000-en_FFWXXXX_0038724_0039892.lab
+ Utterance prob per frame = -4.292007e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0097335_0099178; Label DEV001-20010117-XX2000-en_FFWXXXX_0097335_0099178.lab
+ Utterance prob per frame = -4.366807e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0152836_0153855; Label DEV001-20010117-XX2000-en_FFWXXXX_0152836_0153855.lab
+ Utterance prob per frame = -4.137681e+01
+Generating transform DEV001-00013-20010117-XX2000-en (13)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (4031.488525)
+Node 2 (296.859650)
+Node 3 (3734.628906)
+Using node 3 (3734.628906) to adapt baseclasses: 
+ 2
+Estimated XForm 1 using 3734.634276 observations
+Using node 1 (4031.488525) to adapt baseclasses: 
+ 1
+Estimated XForm 2 using 4031.493954 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00014-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00014-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00014-20010117-XX2000-en
+  Using xform macro "DEV001-00014-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00014-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0099178_0100997; Label DEV001-20010117-XX2000-en_FFWXXXX_0099178_0100997.lab
+ Utterance prob per frame = -4.109513e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0103457_0104538; Label DEV001-20010117-XX2000-en_FFWXXXX_0103457_0104538.lab
+ Utterance prob per frame = -4.140444e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0113251_0115240; Label DEV001-20010117-XX2000-en_FFWXXXX_0113251_0115240.lab
+ Utterance prob per frame = -4.093079e+01
+Generating transform DEV001-00014-20010117-XX2000-en (14)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (4889.653320)
+Node 2 (381.005554)
+Node 3 (4508.647949)
+Using node 3 (4508.647949) to adapt baseclasses: 
+ 2
+Estimated XForm 1 using 4508.676863 observations
+Using node 1 (4889.653320) to adapt baseclasses: 
+ 1
+Estimated XForm 2 using 4889.682360 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-00015-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00015-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-00015-20010117-XX2000-en
+  Using xform macro "DEV001-00015-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-00015-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0100997_0101586; Label DEV001-20010117-XX2000-en_FFWXXXX_0100997_0101586.lab
+ Utterance prob per frame = -4.366334e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0104538_0105551; Label DEV001-20010117-XX2000-en_FFWXXXX_0104538_0105551.lab
+ Utterance prob per frame = -4.368055e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0108175_0110137; Label DEV001-20010117-XX2000-en_FFWXXXX_0108175_0110137.lab
+ Utterance prob per frame = -4.219367e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0111131_0113251; Label DEV001-20010117-XX2000-en_FFWXXXX_0111131_0113251.lab
+ Utterance prob per frame = -4.201098e+01
+Generating transform DEV001-00015-20010117-XX2000-en (15)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (5685.409180)
+Node 2 (456.164337)
+Node 3 (5229.244629)
+Using node 3 (5229.244629) to adapt baseclasses: 
+ 2
+Estimated XForm 1 using 5229.266337 observations
+Using node 1 (5685.409180) to adapt baseclasses: 
+ 1
+Estimated XForm 2 using 5685.430568 observations
+  Using baseclass macro "global" from file lib/classes/global
+  Using xform macro "DEV001-T0001-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-T0001-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+Created 0 AccCaches (of 1 possible)
+Using input transform DEV001-T0001-20010117-XX2000-en
+  Using xform macro "DEV001-T0001-20010117-XX2000-en.cmllr" from file plp/am/plp-bg/dev03_DEV001-20010117-XX2000/adapt/xforms/DEV001-T0001-20010117-XX2000-en.cmllr
+Created 1 ObsCaches (of 2 possible)
+ Processing Data: DEV001-20010117-XX2000-en_FFTXXXX_0089663_0091686; Label DEV001-20010117-XX2000-en_FFTXXXX_0089663_0091686.lab
+ Utterance prob per frame = -3.622143e+01
+Generating transform DEV001-T0001-20010117-XX2000-en (16)
+  Using regtree macro "regtree_2.tree" from file lib/classes/regtree_2.tree
+Node 1 (2023.292114)
+Node 2 (253.210159)
+Node 3 (1770.081909)
+Using node 3 (1770.081909) to adapt baseclasses: 
+ 2
+Estimated XForm 1 using 1770.077886 observations
+Using node 1 (2023.292114) to adapt baseclasses: 
+ 1
+Estimated XForm 2 using 2023.288071 observations
+Reestimation complete - average log prob per frame = -4.146348e+01 (171311 frames)
+
+HTK Configuration Parameters[25]
+  Module/Tool     Parameter                  Value
+                  OUTXFORMMASK    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+                  PAXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+                  INXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+  HMODEL          TRACE                        512
+  HMODEL          SAVEBINARY                 FALSE
+  HADAPT          ADAPTKIND                   TREE
+  HADAPT          SPLITTHRESH          1000.000000
+  HADAPT          REGTREE           regtree_2.tree
+  HADAPT          USEBIAS                     TRUE
+  HADAPT          TRANSKIND               MLLRMEAN
+  HADAPT          TRACE                         61
+#                 LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 RAWMITFORMAT                TRUE
+#                 HNETOFILTER       gzip -c > $.gz
+#                 HNETFILTER        gunzip -c $.gz
+#                 HLANGMODFILTER    gunzip -c $.gz
+# HNET            FORCECXTEXP                 TRUE
+# HNET            ALLOWXWRDEXP                TRUE
+# HNET            TRACE                          1
+# HNET            FACTORLM                    TRUE
+# HREC            FORCEOUT                    TRUE
+  HPARM           TARGETKIND         PLP_0_D_A_T_Z
+

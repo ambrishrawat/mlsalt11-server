@@ -1,3 +1,4 @@
+from SequenceAlignment import SequenceAlignment
 class MLF:
 	'''
 	Class for operating on on MLF files
@@ -5,7 +6,10 @@ class MLF:
 	def __init__(self):
 		self.mdict = {}
 
-	def getdict(self,dic):
+	def return_dict(self):
+		return self.mdict
+
+	def assign_dict(self,dic):
 		self.mdict = dic
 
 	def writemlf(self,fout):
@@ -14,14 +18,14 @@ class MLF:
         		return '{0} {1} {2} {3}'.format(key['tbeg'], entry['tend'], entry['word'], entry['score'])
     		for fkey in self.mdict:
         		mlfstr += entry['name'] + '\n'
-        		mlfstr += '\n'.join(map(genrow, self.mdict[fkey])
-        		mlfstr += "\n.\n"
+        		mlfstr += '\n'.join(map(genrow, self.mdict[fkey]))
+        		mlfstr += "\n\n"
     		with open(fout,'w') as mlffile:
-			mlffile.write(mlfstr)
+				mlffile.write(mlfstr)
 	
 
 	def get_word_list(string):
-		return re.split(r"_<ALTSTART>_|_<ALT>_|_<ALTEND>", string)[1:-1]
+		return re.split(r"_<ALTSTART>_|_<ALT>_|_<ALTEND>", string)[0:-1]
 
 	def gendict(self,addr):
 		'''
@@ -47,7 +51,7 @@ class MLF:
 				dic[fn].append(temp)
 
 		self.mdict = dic
-		return dic
+		pass
 
 	@staticmethod
 	def levenshtein(dic1, dic2):
@@ -76,7 +80,7 @@ class MLF:
 				elif i[1] is None and i[0] is not None:
 					#deletion
 					ndel +=1
-				elif l1[i[0]] != l2[i[1]]:
+				elif l1[i[0]]['word'] != l2[i[1]]['word']:
 					#substitutions
 					nsub += 1
 				else:
@@ -85,10 +89,29 @@ class MLF:
 		print ntot, nsub, ndel, nins
 	
 	@staticmethod
-	def merge_mlf(dic1, dic2):
+	def merge_mlf(mlf1, mlf2):
 		'''
 		take time of mlf2
 		'''
+		dic1 = mlf1.return_dict()
+		dic2 = mlf2.return_dict()
+
+		def dist_time(e1,e2):
+			'''
+			combination of ROVER systems- considering time
+			'''
+			if e1 == None or e2 == None:
+				return 7
+			else:
+				frac = min(e1['tend'], e2['tend']) - max(e1['tbeg'], e2['tbeg'])
+				dur = min(e1['tend'] - e1['tbeg'], e2['tend'] - e2['tbeg'])
+				frac = frac/dur
+				if frac > 0.5 and e1['word'] == e2['word']:
+					return 0
+				else:
+					return 10
+
+
 		mlf3 = {}
 		for file in set(dic1.keys()+dic2.keys()):
 			temp = []
