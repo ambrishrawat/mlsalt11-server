@@ -1,0 +1,831 @@
+base/bin/HVite -A -D -i plp/am/plp-bg/dev03_DEV001-20010117-XX2000/grph-plp-decode_cn/time+sil.mlf -H hmms/MMF.plp -T 1 -C lib/cfgs/hvite.cfg -X rec -t 250.0 250.0 1000.1 -b <s> -a -I plp/am/plp-bg/dev03_DEV001-20010117-XX2000/grph-plp-decode_cn/align.mlf -S plp/am/plp-bg/dev03_DEV001-20010117-XX2000/grph-plp-decode_cn/flists/dev03_DEV001-20010117-XX2000.scp lib/dicts/train.hv.dct hmms/xwrd.clustered.plp 
+
+HTK Configuration Parameters[14]
+  Module/Tool     Parameter                  Value
+#                 LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 RAWMITFORMAT                TRUE
+#                 HNETOFILTER       gzip -c > $.gz
+#                 HNETFILTER        gunzip -c $.gz
+#                 HLANGMODFILTER    gunzip -c $.gz
+# HNET            FORCECXTEXP                 TRUE
+# HNET            ALLOWXWRDEXP                TRUE
+# HNET            TRACE                          1
+# HNET            FACTORLM                    TRUE
+# HREC            FORCEOUT                    TRUE
+# HPARM           TARGETKIND         PLP_0_D_A_T_Z
+
+Read 24908 physical / 93236 logical HMMs
+Label file will be used to align each file
+Aligning File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0078926_0080252.plp
+Created lattice with 38 nodes / 37 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> MORE THAN SIX THOUSAND VETS HAVE REPORTEDLY DIED FROM DISEASES THAT GROUP SUCH AS THE WASHINGTON BASED NATIONAL GULF WAR RESOURCE CENTER SUSPECT WERE CAUSED BY EXPOSURE TO TOXIC CHEMICALS AND BIOLOGICAL WEAPONS DURING A WAR <s>  ==  [1327 frames] -60.8948 [Ac=-80807.4 LM=0.0] (Act=18.6)
+Aligning File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0172865_0175099.plp
+Created lattice with 65 nodes / 64 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE FIRST FEMALE SECRETARY OF STATE CERTAINLY BROKE HER OWN CHARACTER TO THE JOB AND BROKE NEW GROUND IN AMERICAN DIPLOMACY AND WHATEVER YOU THINK OF HER POLITICS AND POLICIES HER COLORFUL STYLE TRADEMARK PINS AND PROVOCATIVE STATEMENTS HAD LEFT AN INDELIBLE MARK ON THE U. S. STATE DEPARTMENT THE PODIUM WILL LIKELY BE GELLER WITHOUT HER FOR THE WORLD I'M JEB SHARP <s>  ==  [2235 frames] -59.5723 [Ac=-133144.2 LM=0.0] (Act=22.0)
+Aligning File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0005922_0008730.plp
+Created lattice with 74 nodes / 73 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> FROM B. B. C. NEWS IN LONDON I'M GREGOR CRAIGIE FOR THE WORLD'S RETIRED GENERAL COLIN POWELL HAS BEEN TENDING THE FIRST DAY OF HIS CONFIRMATION HEARINGS IN THE SENATE IF CONFIRMED POWELL WILL BECOME AMERICA'S FIRST BLACK SECRETARY OF STATE HE TOLD THE SENATE FOREIGN RELATIONS COMMITTEE AMERICAN FOREIGN POLICY WONK REVERT TO ISOLATIONISM MORE PROTECTIONISM UNDER GEORGE W. BUSH BUT HE CONFIRMED THE INCOMING ADMINISTRATION'S ENTHUSIASM FOR NATIONAL MISSILE DEFENSE <s>  ==  [2809 frames] -55.7883 [Ac=-156709.2 LM=0.0] (Act=18.5)
+Aligning File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0100997_0101586.plp
+Created lattice with 24 nodes / 23 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IS GOING ON IN THE GAZA STRIP TONIGHT AND WIRE THIS SAYING ISRAELIS WOULD HAVE REASON TO KILL THIS MAN IN PARTICULAR <s>  ==  [590 frames] -60.5445 [Ac=-35721.3 LM=0.0] (Act=18.8)
+Aligning File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0014112_0016565.plp
+Created lattice with 67 nodes / 66 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND TRYING TO PREVENT THE IMPRESSION OF THE POWER VACUUM IT'S ALREADY NINE TO THE PRESIDENT'S SON GENERAL JOSEPH KABILA AS THE INTERIM LEADER PENDING HIS FATHER'S RETURN PERSONALITIES A SIDE THIS DRAMA HAS FURTHER DESTABILIZED THE VAST COUNTRY TORN APART BY A REBEL WAR WHICH IS SUCKED IN THE ARMIES OF HOFFA THOUSAND OTHER AFRICAN STATES MARK DOYLE B. B. C. NEWS COPY SHOP <s>  ==  [2454 frames] -56.4348 [Ac=-138491.1 LM=0.0] (Act=20.3)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0123422_0123441.plp
+Created lattice with 3 nodes / 2 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IT <s>  ==  [20 frames] -56.4903 [Ac=-1129.8 LM=0.0] (Act=9.7)
+Aligning File: DEV001-00008-20010117-XX2000-en_MFWXXXX_0034010_0034229.plp
+Created lattice with 10 nodes / 9 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND DUAL COULD B. B. C. NEWS VIENNA <s>  ==  [220 frames] -57.4299 [Ac=-12634.6 LM=0.0] (Act=23.5)
+Aligning File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0054245_0056389.plp
+Created lattice with 71 nodes / 70 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WESTERN INTERVIEW ON THE NEWS ARE JIM LAYER PRESIDENT ELECT BUSH SAID THAT QUOTE WHILE AFRICA MAY BE IMPORTANT DOESN'T FIT INTO THE NATIONAL STRATEGIC INTERESTS AS FAR AS I CAN SEE THEM ON QUOTE DO YOU AGREE THAT THERE ARE NO CRITICAL U. S. INTEREST AT STAKE IN HIS BEST KIND INTERPRET YOU EXPLAIN WHAT AH WAS MEANT BY THAT COMMENT I THINK IT REQUIRES MUCH WHEN IT <s>  ==  [2145 frames] -54.0332 [Ac=-115901.3 LM=0.0] (Act=24.6)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0042202_0043208.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BUT SHARES ARE YOU KNOW JOURNAL POLL FURTHER FOR SHADY HOME RUN NEW JERSEY DEMOCRAT JOSEPH BIDEN MADE IT CLEAR THAT POWELL'S CONFIRMATION HEARINGS ARE LITTLE MORE THAN A FORMALITY <s>  ==  [1007 frames] -58.5026 [Ac=-58912.1 LM=0.0] (Act=21.0)
+Aligning File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0159926_0162300.plp
+Created lattice with 73 nodes / 72 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> RUBIN'S COMMENT MAKES POINTED REFERENCE TO THE INCOMING ADMINISTRATION PRESIDENT ELECT BUSH'S FOREIGN POLICY TEAM IS LARGELY THE SAME TEAM THAT WAS IN PLACE UNDER HIS FATHER DURING THE GULF WAR IN NINETEEN NINETY ONE VICTORY ARE NOT THAT MORE LEFT IRAQI PRESIDENT SADDAM HUSSEIN FIRMLY IN PLACE WHERE HE REMAINS TODAY INCOMING SECRETARY OF STATE COLIN POWELL WHO IS CHAIRMAN OF THE JOINT CHIEFS OF STAFF DURING THE GULF WAR <s>  ==  [2375 frames] -58.5524 [Ac=-139061.9 LM=0.0] (Act=18.6)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0051557_0054245.plp
+Created lattice with 87 nodes / 86 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> ALL ARE HOT SPOTS THAT PAL SAID THE BUSH ADMINISTRATION WILL BE WATCHING CLOSELY IN THE COMING MONTHS HE SPOKE OF THE NEED TO EIGHT COLUMBIA IN ITS FIGHT AGAINST DRUGS AND HE SPOKE OF THE NEED TO MAKE AFRICA A BIGGER PART OF AMERICA'S CONCERNS THAT PROMPTED THE ONLY TOUGH QUESTION HOW FACED IN HIS OPENING ROUND OF CONFIRMATION HEARINGS DEMOCRAT RUSS FEINGOLD TOUCHED ON RECENT EVENTS IN THE DEMOCRATIC REPUBLIC OF CONGO AND THEN EXPRESS CONCERN OVER BUSH IS OVERALL COMMITMENT TO AFRICA <s>  ==  [2689 frames] -60.1845 [Ac=-161836.3 LM=0.0] (Act=18.4)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0000000_0000492.plp
+Created lattice with 10 nodes / 9 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> FROM PUBLIC RADIO INTERNATIONAL THIS IS THE WU <s>  ==  [493 frames] -55.2346 [Ac=-27230.6 LM=0.0] (Act=36.3)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0035890_0036973.plp
+Created lattice with 35 nodes / 34 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE WORLD IS BROUGHT TO YOU BY P. R. I. WITH THE SUPPORT OF MERCK PHARMACEUTICAL RESEARCH DEDICATED TO PREVENTING DISEASE AND IMPROVING HEALTH MARK COMMITTED TO BRINGING OUT THE BEST IN MEDICINE <s>  ==  [1084 frames] -57.6067 [Ac=-62445.7 LM=0.0] (Act=21.2)
+Aligning File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0012757_0014112.plp
+Created lattice with 46 nodes / 45 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> DESPITE MOUNTING EVIDENCE THE PRESIDENT COULD BE THE MAY BE THAT THE AUTHORITIES IN KINSHASA HAVE CONTINUED TO BROKE COST ANNOUNCEMENTS THAT HE'S JUST WHEN DID AND BEING GIVEN MEDICAL TREATMENT OF ROLLED IT MAY BE THAT THE CONGO GOVERNMENT IS PLAYING FOR TIME <s>  ==  [1356 frames] -58.1284 [Ac=-78822.1 LM=0.0] (Act=22.8)
+Aligning File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0130462_0131499.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> DURING THE SAME PERIOD ALBRIGHT BECAME KNOWN FOR HER PICKING ONE LINERS SUMMING UP AMERICAN POSITIONS AS IN THIS INTERVIEW ABOUT THE REASON NATO LAUNCHED AIRSTRIKES AGAINST THE BOSNIAN SERBS <s>  ==  [1038 frames] -58.0574 [Ac=-60263.6 LM=0.0] (Act=14.6)
+Aligning File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0132786_0135629.plp
+Created lattice with 84 nodes / 83 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> MADELINE ALBRIGHT HAD BARELY TAKEN OFFICE AS SECRETARY OF STATE IN NINETEEN NINETY SEVEN WHEN WASHINGTON POST REPORTER MICHAEL DOBBS CONFRONTED HER WITH THE STORY HE HAD UNEARTHED ABOUT HER PAST SEVERAL OF HER RELATIVES HAD DIED IN THE HOLOCAUST AS JEWS HER OWN PARENTS HAD CONVERTED TO CATHOLICISM ALBRIGHT SAID SHE HAD NEVER BEEN TOLD HER FAMILY HISTORY THOMAS LIPPMAN ANOTHER WASHINGTON POST REPORTER WHO COVERED THE DIPLOMATIC BEAT SAYS HER REACTION TO THE PROBING OF HER PRIVATE LIFE WAS TELLING <s>  ==  [2844 frames] -59.1536 [Ac=-168232.9 LM=0.0] (Act=17.2)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0115617_0116135.plp
+Created lattice with 13 nodes / 12 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THANK YOU DON'T TO THE BACK TO I'M GOING TO HIM <s>  ==  [519 frames] -60.3330 [Ac=-31312.8 LM=0.0] (Act=92.2)
+Aligning File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0071778_0073237.plp
+Created lattice with 45 nodes / 44 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> SAUDI PORT ABOUT TWO HUNDRED MILES SOUTH OF KUWAIT WHERE OIL WELL FIRES WERE SPEWING HATE BLACK SMOKE THAT SMOKE SAYS BRIAN SETTLED OVER HIS OFFICE AND BAHR AND WITHIN A MONTH OF ARRIVING IN SAUDI ARABIA HE SAYS HE WAS BAD WRITTEN <s>  ==  [1460 frames] -61.7988 [Ac=-90226.3 LM=0.0] (Act=22.7)
+Aligning File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0025913_0028055.plp
+Created lattice with 64 nodes / 63 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> JOHNSON HAD REPORTS MR. ESTRADA'S OPPONENTS BELIEVE THEY NOW HAVE LITTLE HYPE THE PERSUADING THE NECESSARY TO HEADS OF THE SENATE TO CONVICT THE PRESIDENT AND LAST TAPE OF UNSEATING HIM NOW RESTS WITH THE THOUSANDS OF DEMONSTRATORS WHO GAP AT AROUND THE MONUMENT IN CENTRAL MANILA TO THE NINETEEN EIGHTY SIX PEOPLE'S POW UPRISING WHICH TRUE THEN PRESIDENT MARCOS FROM POWER <s>  ==  [2143 frames] -57.7396 [Ac=-123736.1 LM=0.0] (Act=21.4)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0175386_0175691.plp
+Created lattice with 13 nodes / 12 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THIS IS THE WORLD ON P. R. I. PUBLIC RADIO INTERNATIONAL <s>  ==  [306 frames] -57.2407 [Ac=-17515.7 LM=0.0] (Act=28.9)
+Aligning File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0108175_0110137.plp
+Created lattice with 68 nodes / 67 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WHAT THEY'RE LOOKING TO DO LEAST TRY AND FIND SOME SORT OF POSITION PAPER AND DOCUMENT THAT WOULD CLARIFY WHERE BOTH SIDES STAND YASSER ARAFAT IS IN CAIRO TONIGHT THAT WAS A VERY LAST MINUTE DEAL MEETING WITH THE ISRAELIS NO ONE SEEMS TO THINK THEY GREAT BREAKTHROUGH WILL COME OF THIS BUT THERE CERTAINLY IS AN EFFORT TO TRY AND GET SOMETHING DOWN ON PAPER <s>  ==  [1963 frames] -60.5035 [Ac=-118768.4 LM=0.0] (Act=21.2)
+Aligning File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0157550_0159926.plp
+Created lattice with 53 nodes / 52 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> MY VIEW IS THAT MATALIN ALL BRIDES GREATEST SUCCESS WAS TO STAND UP TO SERBIAN AGGRESSION IN EUROPE TO CONFRONT IT DIRECTLY TO OFFER OF PEACE AGREEMENT AND TO ACHIEVE UH THE END OF THE MILOSEVIC REGIME THE CLINTON ADMINISTRATION UNDER MADELINE ALBRIGHT DID NOT LEAVE THE SADDAM HUSSEIN IN EUROPE <s>  ==  [2377 frames] -54.4938 [Ac=-129531.8 LM=0.0] (Act=27.2)
+Aligning File: DEV001-00005-20010117-XX2000-en_MFWXXXX_0043208_0045175.plp
+Created lattice with 64 nodes / 63 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BUT OUR QUESTION GENERAL PILES EXPERIENCE OF THE HIGHEST LEVELS OF GOVERNMENT IN THE CONDUCT OF FOREIGN DEFENSE POLICY IS EXPERIENCE IN MANAGING LARGE ORGANIZATIONS MAKES HIM WELL QUALIFIED TO BE SECRETARY OF STATE AND I'VE NO DOUBT GENERALLY YOU WILL BE CONFIRMED AND I SUSPECT UNANIMOUSLY BY THIS COMMITTEE AND I SUSPECT BY THE WHOLE SENATE IN HIS OWN OPENING STATEMENT <s>  ==  [1968 frames] -55.2485 [Ac=-108729.0 LM=0.0] (Act=21.5)
+Aligning File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0137935_0139120.plp
+Created lattice with 35 nodes / 34 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> MADELINE ALBRIGHT APPLIED THAT KIND OF INTENSE FOCUS TO HER ENTIRE TENURE AS SECRETARY OF STATE SHE KEPT A PUNISHING SCHEDULE TRAVELING RELENTLESSLY IN HIS BOOK MADELINE ALBRIGHT AND THE NEW AMERICAN DIPLOMACY <s>  ==  [1186 frames] -59.0803 [Ac=-70069.2 LM=0.0] (Act=17.2)
+Aligning File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0061550_0062973.plp
+Created lattice with 44 nodes / 43 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THERE'S NO MORE TRAGIC CASE THAT IRAQ WHO FAIL STAY WITH A FAILED LEADER UNFORTUNATELY SADDAM HUSSEIN IS STILL IN POWER BUT WHAT A MESSY IS MADE OF HIS NATION OF THE PAST TEN YEARS WHETHER RUSSIA THE WORLD HAS MOVED ON <s>  ==  [1424 frames] -54.2639 [Ac=-77271.8 LM=0.0] (Act=29.9)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0024253_0024618.plp
+Created lattice with 13 nodes / 12 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> ANGRY CROWDS ON THE STREETS OF THE PHILIPPINES CAPITAL MANILA TODAY <s>  ==  [366 frames] -57.0962 [Ac=-20897.2 LM=0.0] (Act=22.8)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0060244_0061550.plp
+Created lattice with 45 nodes / 44 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> TENTH ANNIVERSARY OF THE GOLF OR DID COME UP HOUSE HEARINGS TODAY HOW WHO WAS CHAIRMAN OF A JOINT CHIEFS OF STAFF DURING THE GOAL FOR DEFENDED U. S. INVOLVEMENT IN THE CONFLICT AND HAD NOTHING BUT CRITICISM FOR IRAQI PRESIDENT SADDAM HUSSEIN <s>  ==  [1307 frames] -58.6132 [Ac=-76607.4 LM=0.0] (Act=23.8)
+Aligning File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0095757_0097335.plp
+Created lattice with 46 nodes / 45 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE HEAD OF PALESTINIAN TELEVISION AND RADIO WAS ASSASSINATED TODAY IN THE GAZA STRIP WITNESSES SAY THREE MASKED GUNMEN SHOT THE MAN OF THE HOTEL AND GAZA CITY THERE ARE REASONS TO SUSPECT ISRAELIS AND THEIR REASONS TO SUSPECT PALESTINIANS ON ONE HAND ISRAEL <s>  ==  [1579 frames] -60.5497 [Ac=-95608.0 LM=0.0] (Act=22.2)
+Aligning File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0045727_0047259.plp
+Created lattice with 57 nodes / 56 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WELL GUIDING PRINCIPLE OF PRESIDENT ELECT BUSH'S FOREIGN POLICY WILL BE THAT AMERICA STANDS READY TO HELP ANY COUNTRY THAT WISHES TO JOIN THE DEMOCRATIC WORLD ANY COUNTRY THAT PUTS THE RULE OF LAW IN PLACE BEGINS TO LIVE BY THAT RULE ANY COUNTRY THAT SEEKS PEACE AND PROSPERITY AND A PLACE IN THE SUN <s>  ==  [1533 frames] -57.4759 [Ac=-88110.6 LM=0.0] (Act=20.6)
+Aligning File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0105551_0106906.plp
+Created lattice with 37 nodes / 36 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THIS MAN IS BELIEVED TO HAVE AH OF RATHER CHECKERED BUSINESS PAST AND SAID MAY HAVE BEEN AT BUSINESS DEAL GONE BAD AH PROBLEM WITH CORRUPTION CERTAINLY HE WASN'T IN AND ABSOLUTELY SQUEAKY CLEAN BUSINESSMAN <s>  ==  [1356 frames] -58.4045 [Ac=-79196.6 LM=0.0] (Act=19.0)
+Aligning File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0083726_0085429.plp
+Created lattice with 56 nodes / 55 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THESE DAYS WHEN BRIAN'S NOT DEALING WITH HIS OWN HEALTH ISSUES HE SPENDS MUCH AS TIME PARTICIPATING IN STUDIES AND ATTENDING HEARINGS ON THE GULF WAR RELATED ILLNESSES HE'S ALSO BEEN POURING THROUGH MILITARY DOCUMENTS SEARCHING FOR ANSWERS TO WHAT HAPPENED TO HIM AND THE OTHERS DURING THEIR TOURS OF DUTY IN THE GOLF <s>  ==  [1704 frames] -62.1775 [Ac=-105950.4 LM=0.0] (Act=19.6)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0023529_0023879.plp
+Created lattice with 9 nodes / 8 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> YOU'RE LISTENING TO BE B. C. NEWS <s>  ==  [351 frames] -54.8400 [Ac=-19248.9 LM=0.0] (Act=14.4)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0080252_0081413.plp
+Created lattice with 33 nodes / 32 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> A RECENT PRESIDENTIAL OVERSIGHT BOARD ON SO CALLED THE GULF WAR RELATED ILLNESSES HAS CONCLUDED THE TROOPS WEREN'T EXPOSED TO ANY SINGLE TOXIC AGENTS THEY COULD BE RESPONSIBLE FOR THEIR AILMENTS <s>  ==  [1162 frames] -64.6760 [Ac=-75153.6 LM=0.0] (Act=16.9)
+Aligning File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0153855_0155569.plp
+Created lattice with 45 nodes / 44 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> ADMIRERS AND CRITICS ALIKE BEGAN REFERRING TO THE NATO BOMBING CAMPAIGN AS MAD LENDS WORE HER CHIEF TASK THROUGHOUT WAS TO HOLD TOGETHER A SOMETIME SHAKY ALLIANCE OF NINETEEN NATO MEMBER STATES FORMER STATE DEPARTMENT SPOKESMAN JAMES RUBIN SAYS SHE WOULDN'T COUNTENANCE FAILURE <s>  ==  [1715 frames] -59.2385 [Ac=-101594.0 LM=0.0] (Act=16.7)
+Aligning File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0170731_0172865.plp
+Created lattice with 63 nodes / 62 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> UM AND BY IN LARGE I THINK SHE BROUGHT A LITTLE FUN TO THE JOB THAT PERHAPS SOME OF HER MALE PREDECESSORS MIGHT NOT OF WHETHER WAS HER JEWELRY OR DANCING AT THE FAMOUS ASIAN FORUM GETTING TOGETHER AND SINGING SONGS WITH THE RUSSIAN FOREIGN MINISTER HAVING A LITTLE OF THAT THAT LOOSENING UP WAS WAS PARTIALLY BECAUSE SHE WAS ONE <s>  ==  [2135 frames] -55.2847 [Ac=-118032.8 LM=0.0] (Act=28.3)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0131499_0131787.plp
+Created lattice with 9 nodes / 8 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IN NINETEEN NINETY FIVE WE THINK THAT <s>  ==  [289 frames] -55.9514 [Ac=-16170.0 LM=0.0] (Act=18.3)
+Aligning File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0124987_0126183.plp
+Created lattice with 37 nodes / 36 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THIS IS THE WORLD I'M LISA MULLINS AS SECRETARY OF STATE DESIGNATE COLIN POWELL WAS TELLING THE SENATE FOREIGN RELATIONS COMMITTEE TODAY HOW HE INTENDS TO APPROACH FOREIGN POLICY THE WOMAN HE SET TO SUCCEED <s>  ==  [1197 frames] -60.9313 [Ac=-72934.7 LM=0.0] (Act=18.3)
+Aligning File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0115240_0115617.plp
+Created lattice with 17 nodes / 16 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THERE WAS JENNIFER GLASS SPEAKING TO US FROM JERUSALEM THANK YOU FOR THE HABITAT FOR <s>  ==  [378 frames] -61.3774 [Ac=-23200.7 LM=0.0] (Act=20.3)
+Aligning File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0135629_0136894.plp
+Created lattice with 27 nodes / 26 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> SHE ESSENTIALLY COMPARTMENTALIZED THAT ENTIRE EPISODE SHE BROKE STRIDE FOR A DAY WASHY SCRAMBLE AROUND FIGURING OUT WHAT TO SAY AND WHO SAY IT TO <s>  ==  [1266 frames] -59.2951 [Ac=-75067.6 LM=0.0] (Act=20.4)
+Aligning File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0017750_0018071.plp
+Created lattice with 14 nodes / 13 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE DELTA SAME ADDRESSED THE NATION IN A SPEECH FILLED WITH RHETORIC <s>  ==  [322 frames] -61.5988 [Ac=-19834.8 LM=0.0] (Act=17.4)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0050749_0051557.plp
+Created lattice with 21 nodes / 20 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> PAL BEEN TOUCHED ON CONTINENTS IN COUNTRIES THAT HE FEELS ARE VITAL TO AMERICA'S INTERESTS CHINA NORTH KOREA INDONESIA <s>  ==  [809 frames] -59.1269 [Ac=-47833.7 LM=0.0] (Act=22.7)
+Aligning File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0169787_0170731.plp
+Created lattice with 27 nodes / 26 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> HE WORKED VERY HARD TO BRING WOMEN'S ISSUES INTO THE FOUR AND DEVELOPING COUNTRIES WHERE THERE ARE REAL PROBLEMS WITH THE WAY WOMEN ARE TREATED <s>  ==  [945 frames] -53.9940 [Ac=-51024.4 LM=0.0] (Act=25.3)
+Aligning File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0035654_0035890.plp
+Created lattice with 3 nodes / 2 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> DID <s>  ==  [237 frames] -52.5151 [Ac=-12446.1 LM=0.0] (Act=14.6)
+Aligning File: DEV001-00010-20010117-XX2000-en_FFWXXXX_0146659_0149113.plp
+Created lattice with 63 nodes / 62 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> TIME AND AGAIN MILOSEVIC HAS PROMISED US TO DO THINGS HE HAD NO INTENTION OF DOING TIME AND AGAIN HE HAS TAKEN HALF MEASURES TO AVOID THE CONSEQUENCES OF ACTIONS YET EVEN IN THE LAST TWO WEEKS EVEN AS HE HAS MADE COSMETIC GESTURES IN THE DIRECTION OF COMPLIANCE HIS FORCES HAVE COMMITTED SOME OF THE WORST ATROCITIES OF THE WAR <s>  ==  [2455 frames] -58.4265 [Ac=-143437.2 LM=0.0] (Act=22.7)
+Aligning File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0101586_0102044.plp
+Created lattice with 14 nodes / 13 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WELL THERE A VERY UNHAPPY WITH PALESTINIAN TELEVISION THEY SAID BY SHOWING <s>  ==  [459 frames] -59.1986 [Ac=-27172.2 LM=0.0] (Act=18.9)
+Aligning File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0011247_0012757.plp
+Created lattice with 45 nodes / 44 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> OFFICIALS IN THE DEMOCRATIC REPUBLIC OF CONGO ARE INSISTING THAT PRESIDENT LAURENT KABILA IS STILL ALIVE THAT'S AFTER HE WAS SHOT AT THE PRESIDENTIAL PALACE IN KINSHASA YESTERDAY BUT THERE ARE NUMEROUS REPORTS THAT CAN BE LATE IS DEAD MARKED A WELL REPORTS <s>  ==  [1511 frames] -55.8256 [Ac=-84352.5 LM=0.0] (Act=19.1)
+Aligning File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0168717_0169787.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> JAMES RUBIN SAYS THAT IN ADDITION TO HER DIPLOMATIC SUCCESSES AND FAILURES NOTHING ALBRIGHT WILL BE REMEMBERED FOR SHAKING UP THE MALE DOMINATED CULTURE OF THE STATE DEPARTMENT I THINK <s>  ==  [1071 frames] -59.1688 [Ac=-63369.8 LM=0.0] (Act=17.6)
+Aligning File: DEV001-00014-20010117-XX2000-en_FFWXXXX_0103457_0104538.plp
+Created lattice with 41 nodes / 40 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THIS MAN MISTER MAKE HE HAD BEEN CRITICIZED BY THE ISRAELIS AND HE HAD TAKEN AWAY HIS SPECIAL IDENTITY CARD WHICH AMONG AND THE TRAVEL IN ALL THE GAZA STRIP EVEN WHEN IT WAS SEALED OFF BY THE ISRAELIS <s>  ==  [1082 frames] -60.6633 [Ac=-65637.7 LM=0.0] (Act=20.4)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0025188_0025913.plp
+Created lattice with 23 nodes / 22 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE ENTIRE PROSECUTING TEAM HAS RESIGNED AFTER THE SENATE VOTED TO EXCLUDE WHAT THEY SAY IS CRUCIAL EVIDENCE AGAINST THE PRESIDENT <s>  ==  [726 frames] -56.6032 [Ac=-41093.9 LM=0.0] (Act=16.8)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0085429_0086154.plp
+Created lattice with 26 nodes / 25 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> I STILL GO BACK GOING OUT THE BACK IN THIS IS THAT I MEAN I CAN HAVE ANOTHER UH WALL LIKE THAT YOU SURE <s>  ==  [726 frames] -51.7386 [Ac=-37562.2 LM=0.0] (Act=34.6)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0045175_0045727.plp
+Created lattice with 20 nodes / 19 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> COLIN POWELL SAID THAT HE BELIEVES AMERICA HOLDS A PLACE OF PRIVILEGE AND POWER IN THE WORLD TODAY <s>  ==  [553 frames] -60.7145 [Ac=-33575.1 LM=0.0] (Act=19.4)
+Aligning File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0119075_0121027.plp
+Created lattice with 27 nodes / 26 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND EVERYONE AND WHERE WE'RE GOING ON ISRAEL'S REGIONS AND I AM I WAS SERIOUS QUESTIONS ANSWERED PAT AND YOUR QUESTIONS WHICH RAMALLAH RESIDENTS COMPUTERIZED <s>  ==  [1953 frames] -62.1366 [Ac=-121352.8 LM=0.0] (Act=90.4)
+Aligning File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0104538_0105551.plp
+Created lattice with 40 nodes / 39 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> CITY CLEAN THE WORD HAPPY AT LEAST AT THE PALESTINIAN BROADCASTING PAY FOR THOSE WHO BELIEVE THAT A MONTH AN INTERNAL PALESTINIAN AFFAIR WHAT TO EVIDENCE TO THE HALF OF THAT GOOD I THINK OF CARRY THAT OUT <s>  ==  [1014 frames] -60.8419 [Ac=-61693.7 LM=0.0] (Act=24.2)
+Aligning File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0047259_0048375.plp
+Created lattice with 39 nodes / 38 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IN THAT LIKE THERE IS NO COUNTRY AND HURT THAT IS NOT TOUCHED BY AMERICA FOR WE HAVE BECOME THE MOTIVE FORCE FOR FREEDOM OF DEMOCRACY IN THE WORLD AND THERE IS NO COUNTRY IN THE WORLD <s>  ==  [1117 frames] -53.7904 [Ac=-60083.9 LM=0.0] (Act=22.5)
+Aligning File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0131787_0132786.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> UH IS A WAY FOR THEM TO UNDERSTAND IT MAY TAKE A TWO BY FOR FRANKLY ARE HIT ACROSS THE HEAD FOR THEM TO UNDERSTAND THAT THEY NEED TO NEGOTIATE <s>  ==  [1000 frames] -56.3569 [Ac=-56356.9 LM=0.0] (Act=26.4)
+Aligning File: DEV001-00013-20010117-XX2000-en_FFWXXXX_0038724_0039892.plp
+Created lattice with 36 nodes / 35 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> TODAY WAS DAY ONE OF POLLS CONFIRMATION HEARING A SECRETARY OF STATE POLL SAID THE BUSH ADMINISTRATION IS COMMITTED TO DEPLOYING A MISSILE DEFENSE SHIELD THAT POSITION HAS PROVOKED OPPOSITION FROM CHINA AND RUSSIA <s>  ==  [1169 frames] -60.6028 [Ac=-70844.6 LM=0.0] (Act=18.6)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0023270_0023529.plp
+Created lattice with 10 nodes / 9 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BUT THE MOTIVE FOR THE ATTACK IS UNCLEAR <s>  ==  [260 frames] -55.2182 [Ac=-14356.7 LM=0.0] (Act=15.7)
+Aligning File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0165135_0167551.plp
+Created lattice with 70 nodes / 69 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE INDELIBLE LESSONS OF HER DRAMATIC CHILDHOOD ASIA REFUGEE AND THEY UH FAMILY TO ESCAPE THAT FLED FIRST IN OUR SEASON THAN THE COMMUNISTS MADE HER VERY MUCH THE PERSON SHE IS AND I I BELIEVE HER WORLD VIEW IS PRETTY MUCH THE SAME WHAT'S CHANGED IS I THINK SHE'S DEVELOPED A SENSE OF LIMITATIONS OF AMERICAN POWER THAT SHE MAY NOT IT HAD BEFORE SHE BECAME SECRETARY <s>  ==  [2417 frames] -60.1914 [Ac=-145482.6 LM=0.0] (Act=22.9)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0000701_0001230.plp
+Created lattice with 21 nodes / 20 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> A CO PRODUCTION OF THE B. B. C. WORLD SERVICE P. R. I. AND W. G. B. H. BOSTON <s>  ==  [530 frames] -55.0795 [Ac=-29192.2 LM=0.0] (Act=34.3)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0073237_0074371.plp
+Created lattice with 48 nodes / 47 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> I DIDN'T KNOW WHAT IT WAS FROM THE DARKNESS IS SO IT WAS JUST THE VIRUS YOU KNOW NOTHING WRONG STATE THE MULTI VITAMINS AND WE ALREADY I DO KNOW AT THE THINK THAT FELL DOWN A COUPLE OF TIMES I WAS IT DOESN'T SAY DEMAND <s>  ==  [1135 frames] -53.4453 [Ac=-60660.4 LM=0.0] (Act=30.5)
+Aligning File: DEV001-00005-20010117-XX2000-en_MFWXXXX_0003705_0005101.plp
+Created lattice with 44 nodes / 43 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> PAUL MAY CHOOSE TO TEAR PAGE IN THE PLAY BOOK OF THE WOMAN HE SAID TO REPLACE MADELEINE ALBRIGHT'S GREATEST SUCCESS WAS TO STAND UP TO SERBIAN AGGRESSION THE CLINTON ADMINISTRATION UNDER MADELINE ALBRIGHT DID NOT LEAVE FOR SADDAM HUSSEIN IN HERE <s>  ==  [1397 frames] -55.3115 [Ac=-77270.2 LM=0.0] (Act=27.5)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0076020_0078926.plp
+Created lattice with 88 nodes / 87 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> GASTROINTESTINAL CARDIOVASCULAR AND MENSTRUAL DISORDERS IN THE YEAR SINCE THE WAR THE SYMPTOMS OF WORSENS TO INCLUDE CANCERS AND BIRTH DEFECTS AMONG SOME GULF WAR VETERANS IN THEIR FAMILIES AND BRIAN'S OWN SYMPTOMS ALSO SPREAD HE SAYS HE HAD TO GO ONE DISABILITY THREE YEARS AGO AFTER AN EXAM TURNED UP HIGH LEVELS OF CARBON MONOXIDE AND HIS BLOOD HE ALSO HAVE A SERIOUS NERVOUS DISORDER IN A STOMACH CONDITION FOR WHICH TAKES A CABINET FULL OF HEALTH BUT HERE'S HIMSELF ONE OF THE LUCKY ONES <s>  ==  [2907 frames] -62.1283 [Ac=-180606.9 LM=0.0] (Act=18.7)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0034229_0034716.plp
+Created lattice with 20 nodes / 19 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> ON WALL STREET THIS HOUR THE DOW IS DOWN EIGHTY TWO AT TEN THOUSAND FIVE HUNDRED AND SEVENTY <s>  ==  [488 frames] -55.8775 [Ac=-27268.2 LM=0.0] (Act=25.1)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0058831_0059786.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> FOR THE MOST PART COMMITTEE MEMBERS BACKED AWAY FROM GRILLING PAL BUT THEY PROMISE TOUGH QUESTIONS LATER ON MISSILE DEFENSE AND ON FUTURE U. S. POLICY IN PLACES LIKE IRAQ <s>  ==  [956 frames] -59.9103 [Ac=-57274.2 LM=0.0] (Act=20.3)
+Aligning File: DEV001-00014-20010117-XX2000-en_FFWXXXX_0113251_0115240.plp
+Created lattice with 63 nodes / 62 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> MAYBE MAKE THINGS CLEAR FOR PRESIDENT BUSH CERTAINLY THE ISRAELI ELECTIONS ARE ARE A DEADLINE AS WELL NO ONE THINKS THAT ANY GREAT DEAL CAN BE MADE SIMPLY BECAUSE AH A NEW ISRAELI PRIME MINISTER WILL BE ELECTED OR THE PRESENT ISRAELI PRIME MINISTER WE REELECTED OFFENDER A SIX AND UNTIL THEN NO REAL POLICY CAN BE MADE HERE IN ISRAEL <s>  ==  [1990 frames] -59.5946 [Ac=-118593.3 LM=0.0] (Act=21.2)
+Aligning File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0139120_0141204.plp
+Created lattice with 58 nodes / 57 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THOMAS LIPPMAN DESCRIBES ONE NIGHTMARE TRIP HE ACCOMPANIED HER OWN IN NOVEMBER NINETEEN NINETY SEVEN THE DESTINATION WAS INDIA AND PAKISTAN BUT FIRST LITMAN SAYS ALBRIGHT STOPPED IN SWITZERLAND TO MEET WITH PALESTINIAN LEADER YASSER ARAFAT AND THEN THE PERSIAN GULF TO SHORE UP SUPPORT FOR AMERICA'S IRAQ POLICY AT THE HEIGHT OF ANOTHER CRISIS THERE <s>  ==  [2085 frames] -58.4000 [Ac=-121764.0 LM=0.0] (Act=18.3)
+Aligning File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0049661_0050749.plp
+Created lattice with 33 nodes / 32 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WE MUST BE INVOLVED ACCORDING TO OUR NATIONAL INTEREST AND NOT IN SOME HAPHAZARD WAY THAT SEEMS MORE DICTATED BY THE CRISIS OF THE DAY RUN BY SERIOUS THOUGHTFUL FOREIGN POLICY <s>  ==  [1089 frames] -53.7760 [Ac=-58562.1 LM=0.0] (Act=18.7)
+Aligning File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0163422_0165135.plp
+Created lattice with 50 nodes / 49 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> A COMPLEX MADELINE ALBRIGHT ON THE OTHER HAND HAS ALWAYS SAID HER THINKING IS GUIDED BY MUNICH NOT VIETNAM A REFERENCE TO EUROPEAN INACTION IN THE FACE OF NAZI GERMANY BEFORE THE SECOND WORLD WAR THOMAS LIPPMAN SAYS ALBRIGHT'S TENURE AS SECRETARY OF STATE HASN'T CHANGED THAT PHILOSOPHY <s>  ==  [1714 frames] -57.5807 [Ac=-98693.3 LM=0.0] (Act=17.6)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0081413_0082437.plp
+Created lattice with 28 nodes / 27 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> INSTEAD IT SUSPECTS STRESSES THE MAJOR CONTRIBUTING FACTOR IN GULF WAR RELATED ILLNESSES AND LYING IN FINES THAT'S AN UNLIKELY CULPRIT AT LEAST IN HIS CASE <s>  ==  [1025 frames] -60.6998 [Ac=-62217.3 LM=0.0] (Act=17.0)
+Aligning File: DEV001-00013-20010117-XX2000-en_FFWXXXX_0097335_0099178.plp
+Created lattice with 55 nodes / 54 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THIS CRITICIZED OFFICIAL PALESTINIAN BROADCASTS AS INFLAMMATORY BUT THE KILLING MAY HAVE BEEN AN INTERNAL PALESTINIAN AFFAIR THE VICTIM HELD A HIGHLY POLITICAL POSITION AND WAS WIDELY ACCUSED OF CORRUPTION THE WORLD'S JENNIFER GLASSE IS IN JERUSALEM JENNIFER AT WHAT DO WE KNOW FIRST OFF ABOUT THE ASSASSINATION TO THINK AS A CITY <s>  ==  [1844 frames] -60.9228 [Ac=-112341.6 LM=0.0] (Act=17.2)
+Aligning File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0167551_0168717.plp
+Created lattice with 38 nodes / 37 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IN OTHER WORDS THE KOSOVO INTERVENTION MAY HAVE WORKED BUT THE UNITED STATES FOR ALL ITS SUPERPOWER STATUS HAS SO FAR BEEN POWERLESS AGAINST THE LIKES OF THE TALIBAN IN AFGHANISTAN AND SADDAM HUSSEIN IN IRAQ <s>  ==  [1167 frames] -57.7655 [Ac=-67412.3 LM=0.0] (Act=24.0)
+Aligning File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0019834_0020455.plp
+Created lattice with 24 nodes / 23 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> HE WAS REFERRING TO HIS STRUGGLED AGAINST THE U. S. WHICH STRONGLY SUPPORTS THE ECONOMIC EMBARGO MEANT TO FORCE HIM TO THIS <s>  ==  [622 frames] -61.2334 [Ac=-38087.2 LM=0.0] (Act=22.1)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0048375_0049661.plp
+Created lattice with 41 nodes / 40 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THAT DOES NOT TOUCH US HOW REITERATED U. S. COMMITMENTS TO EUROPE AND TO NATO BUT HE ALSO HINTED THAT HE AND HIS SOON TO BE BOSS GEORGE W. BUSH WILL BE CAUTIOUS ABOUT AMERICA'S INVOLVEMENT AND FOREIGN AFFAIRS <s>  ==  [1287 frames] -57.8170 [Ac=-74410.4 LM=0.0] (Act=18.6)
+Aligning File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0039892_0040149.plp
+Created lattice with 10 nodes / 9 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND COULD MEET WITH SKEPTICISM FROM SOME SENATORS <s>  ==  [258 frames] -64.8563 [Ac=-16732.9 LM=0.0] (Act=17.1)
+Aligning File: DEV001-00014-20010117-XX2000-en_FFWXXXX_0099178_0100997.plp
+Created lattice with 54 nodes / 53 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> HE SHOT MAKE KEY WAS SHOT WHILE HE WAS SITTING IN A RESTAURANT BUY THREE MASKED GUNMEN IT IS NOT THE WAY THAT ISRAEL HAS ASSASSINATED PALESTINIANS IN THE PAST ISRAELI ARMY HAS DENIED INVOLVEMENT IN THE INCIDENT THE PALESTINIANS THOUGH ARE LOOKING FOR ISRAELI COLLABORATORS IN THE HUNT FOR THE KILLERS <s>  ==  [1820 frames] -60.0627 [Ac=-109314.1 LM=0.0] (Act=18.4)
+Aligning File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0056389_0058831.plp
+Created lattice with 89 nodes / 88 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> I AT THE PRESIDENT ELECT WAS JUST TOUCHING ON SOME HIS TOP PRIORITIES THAT THINGS THAT SORT OF PRESS IN ON YOU FROM DAY TODAY BUT IN MY CONVERSATIONS WITH HIM I KNOW THAT HE BELIEVES THAT THERE REALLY IS A REGION OF THE WORLD CAN BE BORED AND AH I WOULD NOT HAS STARTED OUT BY TRANSITION BY FIRST HAVING BRIEFINGS FROM THE AFRICAN BUREAU AND IN THE COMMENTS ARE THEY SUBSEQUENTLY IF I WASN'T CONFIDENT THAT I WAS REPRESENTING A SPEAKING FOR THE PRESIDENT ELECT <s>  ==  [2443 frames] -55.2811 [Ac=-135051.7 LM=0.0] (Act=25.8)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0069727_0071230.plp
+Created lattice with 55 nodes / 54 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WAS HAPPY GO LUCKY MAN GONNA WORK EVERY DAY AND THEN WE HAD THE UH SLOW CALL UP TO NINETY ONE PLACE IN AND HERE IN IT WAS MORE OF A PROUD OF VENT FREE EUROPE TO GO SOUTH AND EVERYBODY IN NATAN OR THE END TO ONE JOB AND COME BACK HOME <s>  ==  [1504 frames] -54.1869 [Ac=-81497.1 LM=0.0] (Act=30.6)
+Aligning File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0009943_0011247.plp
+Created lattice with 35 nodes / 34 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE FOREIGN RELATIONS COMMITTEE IS SHOWING SUCH SUPPORT FOR THE POWELL NOMINATION THAT HIS CONFORMATION LOOKS BEYOND DOUBT REPUBLICAN CHAIRMAN JESSE HELMS CLINCHED HIS FIST AND ENTHUSIASM AS POWELL FINISHED HIS OPENING STATEMENTS <s>  ==  [1305 frames] -56.2387 [Ac=-73391.6 LM=0.0] (Act=16.1)
+Aligning File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0074371_0076020.plp
+Created lattice with 50 nodes / 49 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND BRIAN WASN'T ALONE ACCORDING TO SOME REPORTS AS MANY AS SIX PERCENT OF GULF WAR VETERANS REPORTED COMING DOWN WITH AN ARRAY OF AILMENTS THEY BELIEVE HER LINKS TO THEIR SERVICE EVERYTHING FROM DIZZINESS SEVERE HEADACHES AND BLURRED VISION TO EXTREME MUSCLE AND JOINT FIT SHE RASHES <s>  ==  [1650 frames] -60.2082 [Ac=-99343.5 LM=0.0] (Act=18.3)
+Aligning File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0106906_0108175.plp
+Created lattice with 42 nodes / 41 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AGAINST HIS BACKDROP OF VIOLENCE THERE ARE PEACE TALKS HAVE BEEN CONTINUING IN CAIRO IF GIVEN THAT THEIR PRESSING ON WITH THE TALKS AS THE VIOLENCE JUST GOES ON IS THERE ANY KIND OF OPTIMISM THERE ABOUT PROGRESS TOWARD PEACE <s>  ==  [1270 frames] -61.0702 [Ac=-77559.2 LM=0.0] (Act=22.4)
+Aligning File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0149113_0150000.plp
+Created lattice with 29 nodes / 28 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> MILOSEVIC KNOWS WHAT HE NEEDS TO DO IT TO AVOID NATO ACTION HE HAD MONTHS TO DO ALL THESE THINGS NOW HE HAS BEEN A FEW DAYS <s>  ==  [888 frames] -58.1783 [Ac=-51662.3 LM=0.0] (Act=22.6)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0062973_0063552.plp
+Created lattice with 18 nodes / 17 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> COLIN POWELL'S CONFIRMATION HEARINGS ARE SCHEDULED TO CONTINUE TOMORROW FOR THE WORLD THIS IS CLARK BOYD <s>  ==  [580 frames] -59.4470 [Ac=-34479.2 LM=0.0] (Act=19.6)
+Aligning File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0102044_0103457.plp
+Created lattice with 37 nodes / 36 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> PICTURES OF PALESTINIAN JUST BEEN KILLED IN THE THREE MONTH LONG UPRISING THAT IT WAS INFLAMING TENSIONS PALESTINIAN BROADCASTING SAID IT WAS SIMPLY SHOWING THE RESULTS OF WHAT IT SAYS WAS EXCESSIVE IS REALLY FORCE <s>  ==  [1414 frames] -61.5319 [Ac=-87006.1 LM=0.0] (Act=19.1)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0024618_0025188.plp
+Created lattice with 18 nodes / 17 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE CALLING ON PRESIDENT JOSEPH ESTRADA TO STEP DOWN AFTER THE IMPEACHMENT TRIAL AGAINST HIM COLLAPSED <s>  ==  [571 frames] -57.3518 [Ac=-32747.9 LM=0.0] (Act=16.5)
+Aligning File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0063552_0065242.plp
+Created lattice with 63 nodes / 62 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AS COLIN POWELL SAID TODAY THE REST OF THE WORLD HAS MOVED ON FROM THE GULF WAR BUT SOME OF THE MEN AND WOMEN WHO ARE UNDER HIS COMMAND THEN AND FUNDING A DIFFICULT TO PUT THE WAR COMPLETELY BEHIND THEM THE WORLD'S KATY CLARK CUT UP WITH ONE VETERAN NEAR BOSTON FOR WHOM THE GULF WAR REMAINS A DAILY PRESSES <s>  ==  [1691 frames] -60.4265 [Ac=-102181.2 LM=0.0] (Act=21.9)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0036973_0037468.plp
+Created lattice with 14 nodes / 13 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND BY THE MEDTRONIC FOUNDATION MEDTRONIC WHEN LIFE DEPENDS ON MEDICAL TECHNOLOGY <s>  ==  [496 frames] -60.2092 [Ac=-29863.8 LM=0.0] (Act=16.9)
+Aligning File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0040601_0042202.plp
+Created lattice with 54 nodes / 53 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> FOR COLIN POWELL IT WAS AN EASY OPENING SESSION IN FRONT OF THE SENATE FOREIGN RELATIONS COMMITTEE AS GOOD WILL FLOAT FREELY FROM BOTH SIDES OF THE POLITICAL I'LL WITH HIS KNACK FOR CUTTING STREAK TO THE CHASE NORTH CAROLINA REPUBLICAN JESSIE HELMS LED THE WAY AND PRAISING PRESIDENT ELECT BUSH'S NOMINEE <s>  ==  [1602 frames] -60.1104 [Ac=-96296.9 LM=0.0] (Act=17.1)
+Aligning File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0150242_0152342.plp
+Created lattice with 65 nodes / 64 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IT TOOK SEVERAL MORE MONTHS BUT AT THE END OF MARCH NINETEEN NINETY NINE NATO BEGAN BOMBING SERBIA IN AN ATTEMPT TO STOP THE BLOODSHED IN KOSOVO BUT INSTEAD OF PRAISING ALBRIGHT FOR KEEPING TO HER WORD HER DETRACTORS UNLEASHED A STORM OF SCATHING CRITICISM NOW ALBRIGHT WAS DEEMED TO RECKLESS AND TRIGGER HAPPY NAY SAYER SAID THE AIR CAMPAIGN WOULD NEVER WORK <s>  ==  [2101 frames] -58.5606 [Ac=-123035.9 LM=0.0] (Act=17.4)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0067229_0068025.plp
+Created lattice with 28 nodes / 27 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> SOME FORTY FOUR YEARS OLD NOW AND WHEN THE MILITARY I WAS A TEAM MY UNCLES MY COUSINS THOSE LAST ONE OUT OF MY FAMILY CAN <s>  ==  [797 frames] -51.8523 [Ac=-41326.3 LM=0.0] (Act=31.9)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0016565_0017750.plp
+Created lattice with 36 nodes / 35 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IRAQI LEADER SADDAM HUSSEIN HAS GIVEN A DEFIANT SPEECH TO MARK THE TENTH ANNIVERSARY OF THE GULF WAR HE SAYS IRAQ HAS TRIUMPHED OVER THE EVIL OF THE WEST BARBARA PLETT REPORTS FROM BAGHDAD <s>  ==  [1186 frames] -55.5929 [Ac=-65933.2 LM=0.0] (Act=20.8)
+Aligning File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0116135_0116680.plp
+Created lattice with 19 nodes / 18 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> LATER IN THE PROGRAM BY THE WORLDWIDE WEB MAY BE OUT OF EIGHT ON P. R. I. <s>  ==  [546 frames] -60.4439 [Ac=-33002.4 LM=0.0] (Act=20.6)
+Aligning File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0127887_0130462.plp
+Created lattice with 79 nodes / 78 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> EVEN BEFORE SHE WAS SECRETARY OF STATE MADELINE ALBRIGHT WAS KNOWN FOR HER BLUNT RHETORIC AND BOLD MOVES AS U. S. AMBASSADOR TO THE UNITED NATIONS SHE WAS PERHAPS BEST KNOWN FOR THWARTING THE RE APPOINTMENT OF U. N. SECRETARY GENERAL BUTROS BUTROS GALLI SHE ENGINEERED HIS OUSTER IN HER BID TO PLEASE CONSERVATIVE SENATOR JESSIE HELMS BACK IN WASHINGTON WHO WAS DEMANDING U. N. REFORMS IN EXCHANGE FOR PAYING AMERICA'S BACK DUES TO THE WORLD BODY <s>  ==  [2576 frames] -59.4759 [Ac=-153209.9 LM=0.0] (Act=17.9)
+Aligning File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0040149_0040601.plp
+Created lattice with 16 nodes / 15 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BUT TODAY AT LEAST IT WAS ALL SMILES AS THE WORLD'S CLARK BOYD REPORTS <s>  ==  [453 frames] -63.6011 [Ac=-28811.3 LM=0.0] (Act=18.4)
+Aligning File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0152342_0152836.plp
+Created lattice with 15 nodes / 14 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> ON THE SURFACE AT LEAST ALBRIGHT DIDN'T FLINCH THE AIR CAMPAIGN IS WORKING <s>  ==  [495 frames] -59.4654 [Ac=-29435.4 LM=0.0] (Act=19.1)
+Aligning File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0146322_0146659.plp
+Created lattice with 9 nodes / 8 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> OF SERBIAN LEADER SLOBODAN MILOSEVIC OVER KOSOVO <s>  ==  [338 frames] -61.3489 [Ac=-20735.9 LM=0.0] (Act=15.2)
+Aligning File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0155569_0157149.plp
+Created lattice with 45 nodes / 44 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> CHI HUNG IN THERE DESPITE UH AND CREDIBLE CRITICISM FROM THE CONGRESS FROM THE MEDIA FROM PEOPLE ALL OVER THE WORLD WE WERE VERY LONG DURING THAT PERIOD AND SHE WAS SURE WE WERE DURING THE RIGHT THING AND SHE WAS PROVED RIGHT <s>  ==  [1581 frames] -54.5739 [Ac=-86281.3 LM=0.0] (Act=29.2)
+Aligning File: DEV001-00010-20010117-XX2000-en_FFWXXXX_0143230_0144629.plp
+Created lattice with 41 nodes / 40 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> ALBRIGHT HAD SOME TOUGH ASSIGNMENTS AND SOME BAD DISAPPOINTMENTS THE FAILURE OF MIDDLE EAST PEACE EFFORTS PERHAPS CHIEF AMONG THEM IRAQ ALSO PROVED TO BE AN INTRACTABLE PROBLEM AND IT TIMES A PUBLIC RELATIONS NIGHTMARE FOR THE UNITED STATES <s>  ==  [1400 frames] -57.7015 [Ac=-80782.1 LM=0.0] (Act=20.6)
+Aligning File: DEV001-00013-20010117-XX2000-en_FFWXXXX_0152836_0153855.plp
+Created lattice with 33 nodes / 32 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> UH AND WE NEED TO CONTINUE TO STAY THE COURSE WITH THAT WE HAVE DONE A GREAT DEAL AT DAMAGE TO THE INFRASTRUCTURE AND IT IS WORKING AND NATO WILL PREVAIL <s>  ==  [1020 frames] -57.7553 [Ac=-58910.4 LM=0.0] (Act=26.0)
+Aligning File: DEV001-00008-20010117-XX2000-en_MFWXXXX_0008730_0009943.plp
+Created lattice with 30 nodes / 29 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> PRESIDENT ELECT BUSH HAS MADE IT QUITE CLEAR IS COMMITTED TO DEPLOYING EFFECTIVE BLESS ALL BALLISTIC MISSILE DEFENSE USING THE BEST TECHNOLOGY AVAILABLE AT THE EARLIEST DATE POSSIBLE <s>  ==  [1214 frames] -54.0702 [Ac=-65641.3 LM=0.0] (Act=19.2)
+Aligning File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0157149_0157550.plp
+Created lattice with 12 nodes / 11 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> RUBIN SAYS KOSOVO WAS CLEARLY ALBRIGHT'S TRIUMPH AND HER LEGACY <s>  ==  [402 frames] -59.0799 [Ac=-23750.1 LM=0.0] (Act=15.6)
+Aligning File: DEV001-00010-20010117-XX2000-en_FFWXXXX_0144629_0146322.plp
+Created lattice with 49 nodes / 48 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AS INTERNATIONAL CRISES MOUNTED DURING CLINTON'S SECOND TERM ALBRIGHT'S GROWING NUMBER OF CRITIC SAID SHE WAS RUNNING U. S. POLICY BY DECLARATIVE STATEMENT RATHER THAN CAREFUL ANALYSIS SO THAT WAS PLENTY OF SKEPTICISM IN LATE NINETEEN NINETY EIGHT WHEN SECRETARY OF STATE ALBRIGHT BEGAN CALLING THE BLUFF <s>  ==  [1694 frames] -58.6966 [Ac=-99432.0 LM=0.0] (Act=18.3)
+Aligning File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0092731_0094302.plp
+Created lattice with 53 nodes / 52 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BUT ROBERTA WHITE THINKS IT WILL BE A LONG TIME BEFORE ANYONE KNOWS FOR SHORE WHAT'S CAUSING SOME GULF WAR VETS TO GET SICK WHICH LEAVES AT BRIAN WITH A LITTLE CHOICE BUT TO WAIT AND HOPE HE LIVES LONG AND TO GET HIS ANSWERS FOR THE WORLD'S I'M KATY CLARK <s>  ==  [1572 frames] -60.7138 [Ac=-95442.1 LM=0.0] (Act=22.2)
+Aligning File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0020939_0022270.plp
+Created lattice with 46 nodes / 45 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AFTER THE SPEECH DEMONSTRATORS GATHERED IN A PUBLIC SHOW OF SUPPORT FOR THE PRESIDENT THE SET THE NATIONALISM HAS GROWN STRONGER HERE AS MANY PEOPLE WILL RALLY AGAINST WHAT THEY SAY IS A SIEGE JOHN THE COUNTRY BARBARA PLATT B. B. C. NEWS BAGHDAD <s>  ==  [1332 frames] -60.0106 [Ac=-79934.2 LM=0.0] (Act=20.2)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0121415_0123065.plp
+Created lattice with 14 nodes / 13 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> YOUR QUESTIONS IN SERIOUS QUESTIONS OR LOSE YOUR TUNES DID UH HUH <s>  ==  [1651 frames] -60.9122 [Ac=-100566.1 LM=0.0] (Act=122.6)
+Aligning File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0071230_0071778.plp
+Created lattice with 20 nodes / 19 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND BERLIN WAS PUT IN CHARGE OF OVERSEEING DATA ENTRY FOR THE LOOTING AND SHIPS AT UH HUH <s>  ==  [549 frames] -61.0592 [Ac=-33521.5 LM=0.0] (Act=21.1)
+Aligning File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0091686_0092731.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> NEXT WEEK THOSE INVOLVED WITH A SCIENTIFIC STUDY OF WATTS IS ANYTHING ACTUALLY HAPPENED TO TROOPS DURING THE GULF WAR WILL MEET IN WASHINGTON D. C. TO POOL THEIR FINDINGS <s>  ==  [1046 frames] -61.2032 [Ac=-64018.6 LM=0.0] (Act=19.2)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0022270_0023270.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE HEAD OF THE PALESTINIAN TELEVISION AND RADIO HAS BEEN SHOT DEAD IN THE GAZA STRIP MASKED GUNMEN OPENED FIRE ON HIS SHUN MACKEY AT A HOTEL AND GAZA CITY <s>  ==  [1001 frames] -55.8735 [Ac=-55929.4 LM=0.0] (Act=20.6)
+Aligning File: DEV001-00008-20010117-XX2000-en_MFWXXXX_0031182_0034010.plp
+Created lattice with 88 nodes / 87 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> OPEC ENERGY MINISTERS SAY THIS WIDELY EXPECTED PRODUCTION CUT IS INTENDED TO STABILIZE THE MARKET THEY WERE CLEARLY CONCERNED AT THE FULL OF MOLTEN TWENTY PERCENT IN THE PRICE OF CRUDE OIL IT HAPPENED DURING TO SEND UP THERE WORRIED THAT WITHOUT CUTS PRICES COULD FALL FURTHER AS DEMAND WEAKENS AT THE END OF THE NORTHERN HEMISPHERE WINTER IF PRICES DO STOP TO FALL AGAIN OPEC HAS INDICATED THAT THE PRODUCTION CUTS ALL A REAL POSSIBILITY THE MINISTERS IT JEWS TO ME TO GAIN IN MULCH <s>  ==  [2829 frames] -58.3263 [Ac=-165005.0 LM=0.0] (Act=22.7)
+Aligning File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0028055_0029446.plp
+Created lattice with 42 nodes / 41 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BUT DESPITE THE SOMETIMES SHOCKING ALLEGATIONS OF CORRUPTION MADE AGAINST PRESIDENT ESTRADA DURING IMPEACHMENT HEARINGS HE HAS MAINTAINED HIS POPULARITY AMONG THE POLL WHO REMEMBER HIM AS A POP A FILM STAR TOM OFTEN HAD B. B. C. NEWS MANILA <s>  ==  [1392 frames] -58.0431 [Ac=-80796.0 LM=0.0] (Act=18.0)
+Aligning File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0018071_0019834.plp
+Created lattice with 54 nodes / 53 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND A DECLARATION OF VICTORY SO IN HER SON UH I LOVE DAD ON MY DAD NEVERTHELESS ROCK IRAQ HAS TRIUMPHED OVER ITS ENEMIES HE SAID BANKABLE TIME IN THE REMAINING ROUNDS OF THE BATTLE IRAQI LEADERS THAT THE GULF WAR WAS A CONFRONTATION BETWEEN THE NEEDLE THAT CONTINUES TO THIS DAY <s>  ==  [1764 frames] -59.5092 [Ac=-104974.3 LM=0.0] (Act=36.1)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0034716_0035654.plp
+Created lattice with 25 nodes / 24 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND THE NASDAQ IS UP SEVENTY AT TWENTY SIX EIGHTY NINE B. B. C. NEWS FOR THE WORLD IN LONDON I'M GREGOR CRAGEY <s>  ==  [939 frames] -55.3994 [Ac=-52020.0 LM=0.0] (Act=21.7)
+Aligning File: DEV001-00005-20010117-XX2000-en_MFWXXXX_0002506_0003705.plp
+Created lattice with 39 nodes / 38 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> TODAY COLIN POWELL SURVEYS THE WORLD'S HOTSPOTS INCLUDING THE PERSIAN GULF WHEN WE LOOK AT THAT HOLD TROUBLED REGION MR. CHAIRMAN THERE IS NO MORE TRAGIC CASE THAT A RACK OF FAIL STAY WITH A FAILED LEADER <s>  ==  [1200 frames] -55.2993 [Ac=-66359.2 LM=0.0] (Act=28.8)
+Aligning File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0162300_0163422.plp
+Created lattice with 36 nodes / 35 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> NOW FACES THE IRAQ PROBLEM AGAIN PAUL LEARNED HIS FOREIGN POLICY LESSONS AS A SOLDIER IN VIETNAM HE HAS MADE A CLEAR HE WILL BE LOATH TO USE AMERICAN FORCED TO INTERVENE IN FAR <s>  ==  [1123 frames] -56.3806 [Ac=-63315.5 LM=0.0] (Act=21.3)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0082437_0083726.plp
+Created lattice with 47 nodes / 46 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IN A PITCH EUROPEAN OIL EXCESS OF THE GO STRESS THERE A CALL ON EVERY DAY AHEAD OF THE JOB ONLY AT THE FATE OF FAMILY THEY TOOK YOU MEAN I DON'T KNOW IF I WITH STRESS IT WOULD HAVE TO BE SENT CLINCHES STRESS <s>  ==  [1290 frames] -52.5439 [Ac=-67781.7 LM=0.0] (Act=35.4)
+Aligning File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0111131_0113251.plp
+Created lattice with 66 nodes / 65 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> PRESIDENT CLINTON HAS BEEN AT A KEY NEGOTIATOR INDIES PEACE TALKS OBVIOUSLY THERE'S UNCERTAINTY WHETHER PRESIDENT BUSH WOULD BE UP AS WILLING TO GO THE DISTANCE AS PRESIDENT CLINTON CERTAINLY HAS DONE IN IN HIS EIGHT YEARS SO I THINK WHEN EVERYONE'S TRYING TO DO IS SIMPLY TO GET IT DOWN ON PAPER WHERE THINGS STAND AT WHAT THE OFFER IS ON THE TABLE <s>  ==  [2121 frames] -59.7980 [Ac=-126831.6 LM=0.0] (Act=18.7)
+Aligning File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0126183_0127887.plp
+Created lattice with 53 nodes / 52 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IS PREPARING FOR LIFE AFTER THE STATE DEPARTMENT MADELEINE ALBRIGHT SAYS SHE WANTS TO RIGHTS AND SPEND SOME QUALITY TIME WITH A GRANDCHILDREN AS SECRETARY OF STATE FOR THE PAST FOUR YEARS ALBRIGHT HAS LEFT HER MARK ON THE STYLE AND SUBSTANCE OF AMERICAN FOREIGN POLICY THE WORLD'S JEB SHARP EXPLAINS <s>  ==  [1705 frames] -61.3842 [Ac=-104660.0 LM=0.0] (Act=18.5)
+Aligning File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0141204_0143230.plp
+Created lattice with 60 nodes / 59 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WE WOUND UP VISITING FOUR A FIVE OF THOSE SMALL PERSIAN GULF COUNTRIES IN THE SAME DAY AH TO KEEP THEM ON OUR SIDE AGAINST IRAQIS AND MADE AN UNSCHEDULED OR A NIGHT STOP IN SAUDI ARABIA AND SO NOW WAIT EVERYBODY'S EXHAUSTED THEIR FOUR FIVE ISSUE OF THE TABLE AND WE HAVEN'T YET GOD TO INDIA PAKISTAN <s>  ==  [2027 frames] -59.5429 [Ac=-120693.4 LM=0.0] (Act=26.6)
+Aligning File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0110137_0111131.plp
+Created lattice with 39 nodes / 38 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BEFORE PRESIDENT CLINTON LEAVES OFFICE ON SATURDAY THEN WHY WHAT THEY SEE THAT IS A DEADLINE RATHER THAN FRANCE IS THE PROPER A SIX ISRAELI ELECTION WHILE THEY WANTED IN BY THE TONIC TO MR. CLINTON LEAVES <s>  ==  [995 frames] -59.5603 [Ac=-59262.5 LM=0.0] (Act=21.3)
+Aligning File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0037850_0038724.plp
+Created lattice with 32 nodes / 31 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IS THE WORLD I'M LISA MULLINS TEN YEARS AFTER THE START OF THE GULF WAR ONE OF THE LEADERS OF THE AMERICAN MILITARY EFFORT COLIN POWELL TESTIFIED ON CAPITOL HILL <s>  ==  [875 frames] -59.0213 [Ac=-51643.6 LM=0.0] (Act=18.2)
+Aligning File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0088514_0089663.plp
+Created lattice with 33 nodes / 32 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BRIAN COULD BE AREN'T A SOMETHING ACCORDING TO ROBERTO WAIT A PROFESSOR OF NEUROLOGY AN ENVIRONMENTAL HEALTH AT BOSTON UNIVERSITY SHE'S BEEN STUDYING GULF WAR ILLNESSES FOR THE PAST EIGHT YEARS <s>  ==  [1150 frames] -61.4922 [Ac=-70716.0 LM=0.0] (Act=21.0)
+Aligning File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0068025_0069727.plp
+Created lattice with 55 nodes / 54 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> BRIAN STARTED HIS MILITARY CAREER IS A COMBAT ENGINEER ON THE GULF WAR TEAM AROUND HE WAS A RESERVE SERVING ONE WEEKEND A MONTH WITH ELEVEN SEVENTY THIRD TRANSPORTATION TERMINAL UNIT THE REST OF THE TIME BUYING AND SAYS HE WAS SIMPLY ENJOYING BEING A HUSBAND AND FATHER TO IS TO YOUNG CHILDREN <s>  ==  [1703 frames] -60.9415 [Ac=-103783.3 LM=0.0] (Act=18.0)
+Aligning File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0150000_0150242.plp
+Created lattice with 9 nodes / 8 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> WE JUST FRANKLY ALL HE EVER NEEDED <s>  ==  [243 frames] -60.1801 [Ac=-14623.8 LM=0.0] (Act=16.8)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0116680_0119075.plp
+Created lattice with 70 nodes / 69 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THE WORLD IS BROUGHT TO YOU BY P. R. I. WITH THE SUPPORT OF MERCK DEDICATED TO THE NEEDS OF SOCIETY THROUGH PHARMACEUTICAL RESEARCH AND CONSUMER EDUCATION TO IMPROVE THE QUALITY OF LIFE MERK COMMITTED TO BRINGING OUT THE BEST IN MEDICINE AND WITH SUPPORT FROM UPSIDE FINANCIAL NETWORK REALTIME FINANCIAL REPORTING FOR THE TECHNOLOGY INVESTOR STREAMED LIFE AND ON LINE AT UPSIDE F. A. N. DOT COM <s>  ==  [2396 frames] -60.8037 [Ac=-145685.6 LM=0.0] (Act=22.6)
+Aligning File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0065242_0067229.plp
+Created lattice with 60 nodes / 59 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> OUTSIDE HIS TRADING MOBILE HOME IN THE BLUE COLLAR COMMUNITY OF MALDEN MASSACHUSETTS AND BRIAN SHOVEL SNOW OFF HIS DRIVEWAY GULF WAR VETERANS CAP PERCHED ON TOP OF HIS HEAD RETIRED NOW BOTH FROM HIS JOB IS THE CITY FIREFIGHTER IN FROM THE MILITARY IT'S EASY TO SEE THAT SERVICE REMAINS A BIG PART OF IT BRIAN FLIGHT <s>  ==  [1988 frames] -60.7961 [Ac=-120862.6 LM=0.0] (Act=19.3)
+Aligning File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0178428_0178746.plp
+Created lattice with 4 nodes / 3 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> OH NO <s>  ==  [319 frames] -45.8563 [Ac=-14628.2 LM=0.0] (Act=21.6)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0123934_0124987.plp
+Created lattice with 9 nodes / 8 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND AND NEWS SERVICE AFTER SENATOR IT <s>  ==  [1054 frames] -60.0518 [Ac=-63294.6 LM=0.0] (Act=68.9)
+Aligning File: DEV001-T0001-20010117-XX2000-en_FFTXXXX_0089663_0091686.plp
+Created lattice with 60 nodes / 59 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> THERE WERE SENT ME INCREASES AND CARDIO PULMONARY DISEASE IS IN THE IN THE AREA AT THE TIMES OF THE OIL WELL FIRES BUT WE DON'T HAVE AN ANSWER AT I CERTAINLY DON'T THINK THAT THE GULF WAR FIRES ARE THE WHOLE EXPLANATION AND I THINK THAT'S VERY UNSATISFYING TO THE PEOPLE THAT WENT THERE AND THE PUBLIC <s>  ==  [2024 frames] -58.9315 [Ac=-119277.4 LM=0.0] (Act=30.6)
+Aligning File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0086154_0088514.plp
+Created lattice with 71 nodes / 70 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> UH WHAT HAPPENS IS IN THAT PARTICULARLY AREA UM THE UNITED STATES HAS BEEN HAVE TO TAKE A LITTLE BIT MORE EXTREME PRECAUTIONS AND NOT SET THE TROOPS UP WIND THAT'S EXACTLY THEY DIDN'T GO FOR THE SET UP DOWN STORM THAT RATE THIS AS A LOT OF SOME NEWS MATTER OF A BRILLIANT PUT TWO TWO TOGETHER AND THAT'S STAND WILL MAN WITH THESE DISEASES ARE COMING FROM <s>  ==  [2361 frames] -51.2729 [Ac=-121055.3 LM=0.0] (Act=35.0)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0179193_0180999.plp
+Created lattice with 58 nodes / 57 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> I'M LISA MULLINS STILL AHEAD ON THE WORLD THE POWER VACUUM IN AFRICAN NATION IS USED TO TRAVEL CONGO HAS TO CAVE TO A PROFOUND TO BE IN THIS IS JUST THE LATEST EPISODE OF A LONG SUCCESSION VERY NEGATIVE SET BACKS ALSO THE NEXT WORLD WIDE WEB AND THE NEXT BIG THING IN THE REGGAE <s>  ==  [1807 frames] -55.8203 [Ac=-100867.3 LM=0.0] (Act=31.5)
+Aligning File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0001701_0002049.plp
+Created lattice with 11 nodes / 10 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> IT'S WEDNESDAY JANUARY SEVENTEENTH OF LISA MULLINS IN BOSTON <s>  ==  [349 frames] -58.7265 [Ac=-20495.5 LM=0.0] (Act=23.9)
+Aligning File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0029446_0031182.plp
+Created lattice with 49 nodes / 48 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> ENERGY SECRETARY BILL RICHARDSON HAS DESCRIBED AS DISAPPOINTING A DECISION BY OPEC TO CUT PRODUCTION BY ABOUT FIVE PERCENT THE DECISION WAS TAKEN OF THE MEANING OF OPEC ENERGY MINISTERS IN VIENNA IT WAS TAKEN TO TRY TO PROP UP THE WORLD'S OIL PRICES ANDREW WALKER REPORTS <s>  ==  [1737 frames] -56.7716 [Ac=-98612.3 LM=0.0] (Act=18.5)
+Aligning File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0136894_0137935.plp
+Created lattice with 38 nodes / 37 arcs from label file
+Performing network expansion with cross word contexts
+ Defined 46 contexts
+  sil  k  ao  z  ax  m  n  en  t  ih  l  ey  aa  hh  ow  em  ae  ah  r  d  v  axr  er  s  iy  b  ix  ng  ay  eh  sh  el  uw  uh  y  th  jh  zh  g  aw  w  p  dh  ch  f  oy
+<s> AND SHE WAS PEPPERED BY A LOT OF QUESTIONS ABOUT IT BUT YOU KNOW IT IT'S AS IF THEY'RE GOING TO BRIEF TEMPORARY POWER OUTAGE AND THEN WHEN THE LIGHTS CAME BACK ON ON SHE WENT <s>  ==  [1042 frames] -58.8320 [Ac=-61302.9 LM=0.0] (Act=23.6)
+
+HTK Configuration Parameters[14]
+  Module/Tool     Parameter                  Value
+                  LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 RAWMITFORMAT                TRUE
+#                 HNETOFILTER       gzip -c > $.gz
+#                 HNETFILTER        gunzip -c $.gz
+#                 HLANGMODFILTER    gunzip -c $.gz
+  HNET            FORCECXTEXP                 TRUE
+  HNET            ALLOWXWRDEXP                TRUE
+  HNET            TRACE                          1
+  HNET            FACTORLM                    TRUE
+  HREC            FORCEOUT                    TRUE
+  HPARM           TARGETKIND         PLP_0_D_A_T_Z
+

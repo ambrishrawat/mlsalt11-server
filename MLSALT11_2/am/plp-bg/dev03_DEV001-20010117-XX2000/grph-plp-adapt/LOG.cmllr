@@ -1,0 +1,379 @@
+base/bin/HERest -A -D -H hmms/MMF.plp -T 1 -C lib/cfgs/hvite.cfg -t 250.0 250.0 1000.1 -J lib/classes -C lib/cfgs/cmllr.cfg -h %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_* -K plp/am/plp-bg/dev03_DEV001-20010117-XX2000/grph-plp-adapt/xforms cmllr -u a -I plp/am/plp-bg/dev03_DEV001-20010117-XX2000/grph-plp-adapt/model.mlf -S plp/am/plp-bg/dev03_DEV001-20010117-XX2000/grph-plp-adapt/flists/dev03_DEV001-20010117-XX2000.scp hmms/xwrd.clustered.plp 
+
+HTK Configuration Parameters[24]
+  Module/Tool     Parameter                  Value
+#                 OUTXFORMMASK    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+#                 PAXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+#                 INXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+# HMODEL          TRACE                        512
+# HMODEL          SAVEBINARY                 FALSE
+# HADAPT          ADAPTKIND                   BASE
+# HADAPT          BASECLASS                 global
+# HADAPT          USEBIAS                     TRUE
+# HADAPT          TRANSKIND                  CMLLR
+# HADAPT          TRACE                         61
+#                 LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 RAWMITFORMAT                TRUE
+#                 HNETOFILTER       gzip -c > $.gz
+#                 HNETFILTER        gunzip -c $.gz
+#                 HLANGMODFILTER    gunzip -c $.gz
+# HNET            FORCECXTEXP                 TRUE
+# HNET            ALLOWXWRDEXP                TRUE
+# HNET            TRACE                          1
+# HNET            FACTORLM                    TRUE
+# HREC            FORCEOUT                    TRUE
+# HPARM           TARGETKIND         PLP_0_D_A_T_Z
+
+HERest  ML Updating: XForms 
+
+ System is SHARED
+93236 Logical/24908 Physical Models Loaded, VecSize=39
+1 MMF input files
+  Using baseclass macro "global" from file lib/classes/global
+Attached 96021 XFormInfo structures
+Attached 96021 RegAcc structures
+Pruning-On[250.0 250.0 1000.1]
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0068025_0069727; Label DEV001-20010117-XX2000-en_FFWXXXX_0068025_0069727.lab
+ Utterance prob per frame = -4.598236e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0083726_0085429; Label DEV001-20010117-XX2000-en_FFWXXXX_0083726_0085429.lab
+ Utterance prob per frame = -4.721886e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0088514_0089663; Label DEV001-20010117-XX2000-en_FFWXXXX_0088514_0089663.lab
+ Utterance prob per frame = -4.657904e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0091686_0092731; Label DEV001-20010117-XX2000-en_FFWXXXX_0091686_0092731.lab
+ Utterance prob per frame = -4.624965e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0092731_0094302; Label DEV001-20010117-XX2000-en_FFWXXXX_0092731_0094302.lab
+ Utterance prob per frame = -4.573459e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0150000_0150242; Label DEV001-20010117-XX2000-en_FFWXXXX_0150000_0150242.lab
+ Utterance prob per frame = -4.520746e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0152342_0152836; Label DEV001-20010117-XX2000-en_FFWXXXX_0152342_0152836.lab
+ Utterance prob per frame = -4.450290e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0012757_0014112; Label DEV001-20010117-XX2000-en_MFWXXXX_0012757_0014112.lab
+ Utterance prob per frame = -4.316215e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0014112_0016565; Label DEV001-20010117-XX2000-en_MFWXXXX_0014112_0016565.lab
+ Utterance prob per frame = -4.147323e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0025913_0028055; Label DEV001-20010117-XX2000-en_MFWXXXX_0025913_0028055.lab
+ Utterance prob per frame = -4.277346e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0028055_0029446; Label DEV001-20010117-XX2000-en_MFWXXXX_0028055_0029446.lab
+ Utterance prob per frame = -4.305256e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0035654_0035890; Label DEV001-20010117-XX2000-en_MFWXXXX_0035654_0035890.lab
+ Utterance prob per frame = -3.759162e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0178428_0178746; Label DEV001-20010117-XX2000-en_MFWXXXX_0178428_0178746.lab
+ Utterance prob per frame = -3.093041e+01
+Generating transform DEV001-00001-20010117-XX2000-en (1)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 15807.544363 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0036973_0037468; Label DEV001-20010117-XX2000-en_FFWXXXX_0036973_0037468.lab
+ Utterance prob per frame = -4.524618e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0065242_0067229; Label DEV001-20010117-XX2000-en_FFWXXXX_0065242_0067229.lab
+ Utterance prob per frame = -4.583737e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0076020_0078926; Label DEV001-20010117-XX2000-en_FFWXXXX_0076020_0078926.lab
+ Utterance prob per frame = -4.716949e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0080252_0081413; Label DEV001-20010117-XX2000-en_FFWXXXX_0080252_0081413.lab
+ Utterance prob per frame = -4.962458e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0081413_0082437; Label DEV001-20010117-XX2000-en_FFWXXXX_0081413_0082437.lab
+ Utterance prob per frame = -4.575486e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0115617_0116135; Label DEV001-20010117-XX2000-en_FFWXXXX_0115617_0116135.lab
+ Utterance prob per frame = -4.543105e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0116680_0119075; Label DEV001-20010117-XX2000-en_FFWXXXX_0116680_0119075.lab
+ Utterance prob per frame = -4.584165e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0131499_0131787; Label DEV001-20010117-XX2000-en_FFWXXXX_0131499_0131787.lab
+ Utterance prob per frame = -4.098794e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0016565_0017750; Label DEV001-20010117-XX2000-en_MFWXXXX_0016565_0017750.lab
+ Utterance prob per frame = -4.062987e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0022270_0023270; Label DEV001-20010117-XX2000-en_MFWXXXX_0022270_0023270.lab
+ Utterance prob per frame = -4.090349e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0023270_0023529; Label DEV001-20010117-XX2000-en_MFWXXXX_0023270_0023529.lab
+ Utterance prob per frame = -4.024239e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0023529_0023879; Label DEV001-20010117-XX2000-en_MFWXXXX_0023529_0023879.lab
+ Utterance prob per frame = -3.989273e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0024618_0025188; Label DEV001-20010117-XX2000-en_MFWXXXX_0024618_0025188.lab
+ Utterance prob per frame = -4.239047e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0025188_0025913; Label DEV001-20010117-XX2000-en_MFWXXXX_0025188_0025913.lab
+ Utterance prob per frame = -4.163606e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0029446_0031182; Label DEV001-20010117-XX2000-en_MFWXXXX_0029446_0031182.lab
+ Utterance prob per frame = -4.180353e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0034229_0034716; Label DEV001-20010117-XX2000-en_MFWXXXX_0034229_0034716.lab
+ Utterance prob per frame = -4.091908e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0034716_0035654; Label DEV001-20010117-XX2000-en_MFWXXXX_0034716_0035654.lab
+ Utterance prob per frame = -4.043926e+01
+Generating transform DEV001-00002-20010117-XX2000-en (2)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 18034.259729 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0071230_0071778; Label DEV001-20010117-XX2000-en_FFWXXXX_0071230_0071778.lab
+ Utterance prob per frame = -4.610653e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0071778_0073237; Label DEV001-20010117-XX2000-en_FFWXXXX_0071778_0073237.lab
+ Utterance prob per frame = -4.693263e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0074371_0076020; Label DEV001-20010117-XX2000-en_FFWXXXX_0074371_0076020.lab
+ Utterance prob per frame = -4.524428e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0078926_0080252; Label DEV001-20010117-XX2000-en_FFWXXXX_0078926_0080252.lab
+ Utterance prob per frame = -4.593788e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0005922_0008730; Label DEV001-20010117-XX2000-en_MFWXXXX_0005922_0008730.lab
+ Utterance prob per frame = -4.082218e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0009943_0011247; Label DEV001-20010117-XX2000-en_MFWXXXX_0009943_0011247.lab
+ Utterance prob per frame = -4.127389e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0011247_0012757; Label DEV001-20010117-XX2000-en_MFWXXXX_0011247_0012757.lab
+ Utterance prob per frame = -4.090960e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0054245_0056389; Label DEV001-20010117-XX2000-en_MFWXXXX_0054245_0056389.lab
+ Utterance prob per frame = -3.899883e+01
+Generating transform DEV001-00003-20010117-XX2000-en (3)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 12750.693166 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0000000_0000492; Label DEV001-20010117-XX2000-en_FFWXXXX_0000000_0000492.lab
+ Utterance prob per frame = -4.029723e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0000701_0001230; Label DEV001-20010117-XX2000-en_FFWXXXX_0000701_0001230.lab
+ Utterance prob per frame = -4.015679e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0001701_0002049; Label DEV001-20010117-XX2000-en_FFWXXXX_0001701_0002049.lab
+ Utterance prob per frame = -4.384104e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0035890_0036973; Label DEV001-20010117-XX2000-en_FFWXXXX_0035890_0036973.lab
+ Utterance prob per frame = -4.265325e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0121415_0123065; Label DEV001-20010117-XX2000-en_FFWXXXX_0121415_0123065.lab
+ Utterance prob per frame = -4.603183e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0123934_0124987; Label DEV001-20010117-XX2000-en_FFWXXXX_0123934_0124987.lab
+ Utterance prob per frame = -4.503844e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0175386_0175691; Label DEV001-20010117-XX2000-en_FFWXXXX_0175386_0175691.lab
+ Utterance prob per frame = -4.226208e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0179193_0180999; Label DEV001-20010117-XX2000-en_FFWXXXX_0179193_0180999.lab
+ Utterance prob per frame = -4.084452e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0024253_0024618; Label DEV001-20010117-XX2000-en_MFWXXXX_0024253_0024618.lab
+ Utterance prob per frame = -4.210674e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0067229_0068025; Label DEV001-20010117-XX2000-en_MFWXXXX_0067229_0068025.lab
+ Utterance prob per frame = -3.687704e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0069727_0071230; Label DEV001-20010117-XX2000-en_MFWXXXX_0069727_0071230.lab
+ Utterance prob per frame = -3.927564e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0073237_0074371; Label DEV001-20010117-XX2000-en_MFWXXXX_0073237_0074371.lab
+ Utterance prob per frame = -3.844495e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0082437_0083726; Label DEV001-20010117-XX2000-en_MFWXXXX_0082437_0083726.lab
+ Utterance prob per frame = -3.766093e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0085429_0086154; Label DEV001-20010117-XX2000-en_MFWXXXX_0085429_0086154.lab
+ Utterance prob per frame = -3.675801e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0086154_0088514; Label DEV001-20010117-XX2000-en_MFWXXXX_0086154_0088514.lab
+ Utterance prob per frame = -3.615220e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0123422_0123441; Label DEV001-20010117-XX2000-en_MFWXXXX_0123422_0123441.lab
+ Utterance prob per frame = -4.167912e+01
+Generating transform DEV001-00004-20010117-XX2000-en (4)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 15467.032325 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0146322_0146659; Label DEV001-20010117-XX2000-en_FFWXXXX_0146322_0146659.lab
+ Utterance prob per frame = -4.638248e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0162300_0163422; Label DEV001-20010117-XX2000-en_FFWXXXX_0162300_0163422.lab
+ Utterance prob per frame = -4.142781e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0163422_0165135; Label DEV001-20010117-XX2000-en_FFWXXXX_0163422_0165135.lab
+ Utterance prob per frame = -4.261568e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0167551_0168717; Label DEV001-20010117-XX2000-en_FFWXXXX_0167551_0168717.lab
+ Utterance prob per frame = -4.280229e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0172865_0175099; Label DEV001-20010117-XX2000-en_FFWXXXX_0172865_0175099.lab
+ Utterance prob per frame = -4.460331e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0002506_0003705; Label DEV001-20010117-XX2000-en_MFWXXXX_0002506_0003705.lab
+ Utterance prob per frame = -4.032287e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0003705_0005101; Label DEV001-20010117-XX2000-en_MFWXXXX_0003705_0005101.lab
+ Utterance prob per frame = -4.035698e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0043208_0045175; Label DEV001-20010117-XX2000-en_MFWXXXX_0043208_0045175.lab
+ Utterance prob per frame = -4.035745e+01
+Generating transform DEV001-00005-20010117-XX2000-en (5)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 11137.315375 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0149113_0150000; Label DEV001-20010117-XX2000-en_FFWXXXX_0149113_0150000.lab
+ Utterance prob per frame = -4.320242e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0150242_0152342; Label DEV001-20010117-XX2000-en_FFWXXXX_0150242_0152342.lab
+ Utterance prob per frame = -4.360707e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0153855_0155569; Label DEV001-20010117-XX2000-en_FFWXXXX_0153855_0155569.lab
+ Utterance prob per frame = -4.432850e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0157149_0157550; Label DEV001-20010117-XX2000-en_FFWXXXX_0157149_0157550.lab
+ Utterance prob per frame = -4.414097e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0159926_0162300; Label DEV001-20010117-XX2000-en_FFWXXXX_0159926_0162300.lab
+ Utterance prob per frame = -4.358653e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0168717_0169787; Label DEV001-20010117-XX2000-en_FFWXXXX_0168717_0169787.lab
+ Utterance prob per frame = -4.421068e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0040601_0042202; Label DEV001-20010117-XX2000-en_MFWXXXX_0040601_0042202.lab
+ Utterance prob per frame = -4.514672e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0042202_0043208; Label DEV001-20010117-XX2000-en_MFWXXXX_0042202_0043208.lab
+ Utterance prob per frame = -4.353340e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0045175_0045727; Label DEV001-20010117-XX2000-en_MFWXXXX_0045175_0045727.lab
+ Utterance prob per frame = -4.575800e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0048375_0049661; Label DEV001-20010117-XX2000-en_MFWXXXX_0048375_0049661.lab
+ Utterance prob per frame = -4.292229e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0050749_0051557; Label DEV001-20010117-XX2000-en_MFWXXXX_0050749_0051557.lab
+ Utterance prob per frame = -4.416087e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0051557_0054245; Label DEV001-20010117-XX2000-en_MFWXXXX_0051557_0054245.lab
+ Utterance prob per frame = -4.521046e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0058831_0059786; Label DEV001-20010117-XX2000-en_MFWXXXX_0058831_0059786.lab
+ Utterance prob per frame = -4.494551e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0060244_0061550; Label DEV001-20010117-XX2000-en_MFWXXXX_0060244_0061550.lab
+ Utterance prob per frame = -4.358415e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0062973_0063552; Label DEV001-20010117-XX2000-en_MFWXXXX_0062973_0063552.lab
+ Utterance prob per frame = -4.447628e+01
+Generating transform DEV001-00006-20010117-XX2000-en (6)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 19333.968939 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0039892_0040149; Label DEV001-20010117-XX2000-en_FFWXXXX_0039892_0040149.lab
+ Utterance prob per frame = -4.988965e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0095757_0097335; Label DEV001-20010117-XX2000-en_FFWXXXX_0095757_0097335.lab
+ Utterance prob per frame = -4.558886e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0106906_0108175; Label DEV001-20010117-XX2000-en_FFWXXXX_0106906_0108175.lab
+ Utterance prob per frame = -4.616755e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0110137_0111131; Label DEV001-20010117-XX2000-en_FFWXXXX_0110137_0111131.lab
+ Utterance prob per frame = -4.459228e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0115240_0115617; Label DEV001-20010117-XX2000-en_FFWXXXX_0115240_0115617.lab
+ Utterance prob per frame = -4.641063e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0045727_0047259; Label DEV001-20010117-XX2000-en_MFWXXXX_0045727_0047259.lab
+ Utterance prob per frame = -4.250568e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0047259_0048375; Label DEV001-20010117-XX2000-en_MFWXXXX_0047259_0048375.lab
+ Utterance prob per frame = -3.885680e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0049661_0050749; Label DEV001-20010117-XX2000-en_MFWXXXX_0049661_0050749.lab
+ Utterance prob per frame = -3.880520e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0056389_0058831; Label DEV001-20010117-XX2000-en_MFWXXXX_0056389_0058831.lab
+ Utterance prob per frame = -4.031237e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0061550_0062973; Label DEV001-20010117-XX2000-en_MFWXXXX_0061550_0062973.lab
+ Utterance prob per frame = -3.930282e+01
+Generating transform DEV001-00007-20010117-XX2000-en (7)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 12080.887983 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0017750_0018071; Label DEV001-20010117-XX2000-en_FFWXXXX_0017750_0018071.lab
+ Utterance prob per frame = -4.664517e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0018071_0019834; Label DEV001-20010117-XX2000-en_FFWXXXX_0018071_0019834.lab
+ Utterance prob per frame = -4.455327e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0019834_0020455; Label DEV001-20010117-XX2000-en_FFWXXXX_0019834_0020455.lab
+ Utterance prob per frame = -4.626782e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0020939_0022270; Label DEV001-20010117-XX2000-en_FFWXXXX_0020939_0022270.lab
+ Utterance prob per frame = -4.498120e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0008730_0009943; Label DEV001-20010117-XX2000-en_MFWXXXX_0008730_0009943.lab
+ Utterance prob per frame = -3.904462e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0031182_0034010; Label DEV001-20010117-XX2000-en_MFWXXXX_0031182_0034010.lab
+ Utterance prob per frame = -4.335853e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0034010_0034229; Label DEV001-20010117-XX2000-en_MFWXXXX_0034010_0034229.lab
+ Utterance prob per frame = -4.244709e+01
+Generating transform DEV001-00008-20010117-XX2000-en (8)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 8299.322026 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0101586_0102044; Label DEV001-20010117-XX2000-en_FFWXXXX_0101586_0102044.lab
+ Utterance prob per frame = -4.423552e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0102044_0103457; Label DEV001-20010117-XX2000-en_FFWXXXX_0102044_0103457.lab
+ Utterance prob per frame = -4.655610e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0105551_0106906; Label DEV001-20010117-XX2000-en_FFWXXXX_0105551_0106906.lab
+ Utterance prob per frame = -4.344246e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0131787_0132786; Label DEV001-20010117-XX2000-en_FFWXXXX_0131787_0132786.lab
+ Utterance prob per frame = -4.140024e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0155569_0157149; Label DEV001-20010117-XX2000-en_MFWXXXX_0155569_0157149.lab
+ Utterance prob per frame = -3.960318e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0157550_0159926; Label DEV001-20010117-XX2000-en_MFWXXXX_0157550_0159926.lab
+ Utterance prob per frame = -3.952823e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0169787_0170731; Label DEV001-20010117-XX2000-en_MFWXXXX_0169787_0170731.lab
+ Utterance prob per frame = -3.902473e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0170731_0172865; Label DEV001-20010117-XX2000-en_MFWXXXX_0170731_0172865.lab
+ Utterance prob per frame = -4.020954e+01
+Generating transform DEV001-00009-20010117-XX2000-en (9)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 11262.879957 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0143230_0144629; Label DEV001-20010117-XX2000-en_FFWXXXX_0143230_0144629.lab
+ Utterance prob per frame = -4.274067e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0144629_0146322; Label DEV001-20010117-XX2000-en_FFWXXXX_0144629_0146322.lab
+ Utterance prob per frame = -4.373426e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0146659_0149113; Label DEV001-20010117-XX2000-en_FFWXXXX_0146659_0149113.lab
+ Utterance prob per frame = -4.345428e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0119075_0121027; Label DEV001-20010117-XX2000-en_MFWXXXX_0119075_0121027.lab
+ Utterance prob per frame = -4.721699e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0135629_0136894; Label DEV001-20010117-XX2000-en_MFWXXXX_0135629_0136894.lab
+ Utterance prob per frame = -4.433987e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0136894_0137935; Label DEV001-20010117-XX2000-en_MFWXXXX_0136894_0137935.lab
+ Utterance prob per frame = -4.387016e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0141204_0143230; Label DEV001-20010117-XX2000-en_MFWXXXX_0141204_0143230.lab
+ Utterance prob per frame = -4.462454e+01
+ Processing Data: DEV001-20010117-XX2000-en_MFWXXXX_0165135_0167551; Label DEV001-20010117-XX2000-en_MFWXXXX_0165135_0167551.lab
+ Utterance prob per frame = -4.523768e+01
+Generating transform DEV001-00010-20010117-XX2000-en (10)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 14247.890749 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0127887_0130462; Label DEV001-20010117-XX2000-en_FFWXXXX_0127887_0130462.lab
+ Utterance prob per frame = -4.451484e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0130462_0131499; Label DEV001-20010117-XX2000-en_FFWXXXX_0130462_0131499.lab
+ Utterance prob per frame = -4.309278e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0132786_0135629; Label DEV001-20010117-XX2000-en_FFWXXXX_0132786_0135629.lab
+ Utterance prob per frame = -4.419256e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0137935_0139120; Label DEV001-20010117-XX2000-en_FFWXXXX_0137935_0139120.lab
+ Utterance prob per frame = -4.412088e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0139120_0141204; Label DEV001-20010117-XX2000-en_FFWXXXX_0139120_0141204.lab
+ Utterance prob per frame = -4.350143e+01
+Generating transform DEV001-00011-20010117-XX2000-en (11)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 9723.732902 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0037850_0038724; Label DEV001-20010117-XX2000-en_FFWXXXX_0037850_0038724.lab
+ Utterance prob per frame = -4.399733e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0040149_0040601; Label DEV001-20010117-XX2000-en_FFWXXXX_0040149_0040601.lab
+ Utterance prob per frame = -4.864547e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0063552_0065242; Label DEV001-20010117-XX2000-en_FFWXXXX_0063552_0065242.lab
+ Utterance prob per frame = -4.548566e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0116135_0116680; Label DEV001-20010117-XX2000-en_FFWXXXX_0116135_0116680.lab
+ Utterance prob per frame = -4.549158e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0124987_0126183; Label DEV001-20010117-XX2000-en_FFWXXXX_0124987_0126183.lab
+ Utterance prob per frame = -4.597505e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0126183_0127887; Label DEV001-20010117-XX2000-en_FFWXXXX_0126183_0127887.lab
+ Utterance prob per frame = -4.642503e+01
+Generating transform DEV001-00012-20010117-XX2000-en (12)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 6464.471697 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0038724_0039892; Label DEV001-20010117-XX2000-en_FFWXXXX_0038724_0039892.lab
+ Utterance prob per frame = -4.564003e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0097335_0099178; Label DEV001-20010117-XX2000-en_FFWXXXX_0097335_0099178.lab
+ Utterance prob per frame = -4.596237e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0152836_0153855; Label DEV001-20010117-XX2000-en_FFWXXXX_0152836_0153855.lab
+ Utterance prob per frame = -4.281204e+01
+Generating transform DEV001-00013-20010117-XX2000-en (13)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 4031.687335 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0099178_0100997; Label DEV001-20010117-XX2000-en_FFWXXXX_0099178_0100997.lab
+ Utterance prob per frame = -4.510325e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0103457_0104538; Label DEV001-20010117-XX2000-en_FFWXXXX_0103457_0104538.lab
+ Utterance prob per frame = -4.568928e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0113251_0115240; Label DEV001-20010117-XX2000-en_FFWXXXX_0113251_0115240.lab
+ Utterance prob per frame = -4.463580e+01
+Generating transform DEV001-00014-20010117-XX2000-en (14)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 4889.829460 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0100997_0101586; Label DEV001-20010117-XX2000-en_FFWXXXX_0100997_0101586.lab
+ Utterance prob per frame = -4.559485e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0104538_0105551; Label DEV001-20010117-XX2000-en_FFWXXXX_0104538_0105551.lab
+ Utterance prob per frame = -4.584656e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0108175_0110137; Label DEV001-20010117-XX2000-en_FFWXXXX_0108175_0110137.lab
+ Utterance prob per frame = -4.553924e+01
+ Processing Data: DEV001-20010117-XX2000-en_FFWXXXX_0111131_0113251; Label DEV001-20010117-XX2000-en_FFWXXXX_0111131_0113251.lab
+ Utterance prob per frame = -4.483607e+01
+Generating transform DEV001-00015-20010117-XX2000-en (15)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 5685.781641 observations
+ Processing Data: DEV001-20010117-XX2000-en_FFTXXXX_0089663_0091686; Label DEV001-20010117-XX2000-en_FFTXXXX_0089663_0091686.lab
+ Utterance prob per frame = -4.398750e+01
+Generating transform DEV001-T0001-20010117-XX2000-en (16)
+  Using baseclass macro "global" from file lib/classes/global
+Estimated XForm 1 using 2023.139340 observations
+Reestimation complete - average log prob per frame = -4.337327e+01 (171311 frames)
+
+HTK Configuration Parameters[24]
+  Module/Tool     Parameter                  Value
+                  OUTXFORMMASK    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+                  PAXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+                  INXFORMMASK     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%_*
+  HMODEL          TRACE                        512
+  HMODEL          SAVEBINARY                 FALSE
+  HADAPT          ADAPTKIND                   BASE
+  HADAPT          BASECLASS                 global
+  HADAPT          USEBIAS                     TRUE
+  HADAPT          TRANSKIND                  CMLLR
+  HADAPT          TRACE                         61
+#                 LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 RAWMITFORMAT                TRUE
+#                 HNETOFILTER       gzip -c > $.gz
+#                 HNETFILTER        gunzip -c $.gz
+#                 HLANGMODFILTER    gunzip -c $.gz
+# HNET            FORCECXTEXP                 TRUE
+# HNET            ALLOWXWRDEXP                TRUE
+# HNET            TRACE                          1
+# HNET            FACTORLM                    TRUE
+# HREC            FORCEOUT                    TRUE
+  HPARM           TARGETKIND         PLP_0_D_A_T_Z
+

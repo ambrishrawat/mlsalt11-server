@@ -1,0 +1,1132 @@
+base/bin/HLRescore -A -D -V -T 7 -C lib/cfgs/hlrescore.cfg -w -q tvaldm -m f -t 100.0 200.0 -s 12.0 -p -10.0 -l plp/am/plp-bg/dev03_DEV001-20010117-XX2000/merge/lattices -L lattices/dev03_DEV001-20010117-XX2000/decode/lattices -S plp/am/plp-bg/dev03_DEV001-20010117-XX2000/merge/flists/dev03_DEV001-20010117-XX2000.scp lib/dicts/train.lv.dct 
+
+HTK Configuration Parameters[15]
+  Module/Tool     Parameter                  Value
+#                 LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+#                 COMPRESSMERGE              FALSE
+#                 FIXBADLATS                  TRUE
+#                 HLANGMODFILTER   gunzip -cd $.gz
+#                 HNETOFILTER       gzip -c > $.gz
+#                 HNETFILTER        gunzip -c $.gz
+# HLM             RAWMITFORMAT                TRUE
+# HLM             TRACE                          1
+# HLAT            TRACE                         11
+#                 ENDWORD                     </s>
+#                 STARTWORD                    <s>
+#                 NONUMESCAPES                TRUE
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HLRescore  3.4.1      CUED   12/03/09  : $Id: HLRescore.c,v 1.1.1.1 2006/10/11 09:55:01 jal58 Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HDict      3.4.1      CUED   12/03/09  : $Id: HDict.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HNet       3.4.1      CUED   12/03/09  : $Id: HNet.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HRec       3.4.1      CUED   12/03/09  : $Id: HRec.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HLM        3.4.1      CUED   12/03/09  : $Id: HLM.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HLat       3.4.1      CUED   12/03/09  : $Id: HLat.c,v 1.2 2006/12/07 11:09:08 mjfg Exp $
+
+Reading dictionary from lib/dicts/train.lv.dct
+
+ Converting lattices to equivalent word networks ...
+
+File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0068025_0069727.plp
+lattice size: 3893 nodes/ 22391 arcs
+lattice pruned from 3893/22391 to 327/615
+
+Average density nodes/sec : 19.2014 -> 11.6265
+
+Average density links/sec : 36.1127 -> 23.1356
+
+File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0083726_0085429.plp
+lattice size: 4370 nodes/ 22680 arcs
+lattice pruned from 4370/22680 to 448/880
+
+Average density nodes/sec : 26.2911 -> 12.3239
+
+Average density links/sec : 51.6432 -> 24.4131
+
+File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0088514_0089663.plp
+lattice size: 3356 nodes/ 22917 arcs
+lattice pruned from 3356/22917 to 392/800
+
+Average density nodes/sec : 34.0870 -> 16.6957
+
+Average density links/sec : 69.5652 -> 37.8261
+
+File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0091686_0092731.plp
+lattice size: 2468 nodes/ 16337 arcs
+lattice pruned from 2468/16337 to 219/431
+
+Average density nodes/sec : 20.9369 -> 10.5163
+
+Average density links/sec : 41.2046 -> 20.9369
+
+File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0092731_0094302.plp
+lattice size: 5209 nodes/ 33745 arcs
+lattice pruned from 5209/33745 to 463/985
+
+Average density nodes/sec : 29.4529 -> 16.9211
+
+Average density links/sec : 62.6590 -> 36.5140
+
+File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0150000_0150242.plp
+lattice size: 1019 nodes/ 5348 arcs
+lattice pruned from 1019/5348 to 86/144
+
+Average density nodes/sec : 35.3909 -> 22.6337
+
+Average density links/sec : 59.2593 -> 40.3292
+
+File: DEV001-00001-20010117-XX2000-en_FFWXXXX_0152342_0152836.plp
+lattice size: 647 nodes/ 1796 arcs
+lattice pruned from 647/1796 to 32/44
+
+Average density nodes/sec : 6.4646 -> 4.4444
+
+Average density links/sec : 8.8889 -> 5.2525
+
+File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0012757_0014112.plp
+lattice size: 4858 nodes/ 37015 arcs
+lattice pruned from 4858/37015 to 373/738
+
+Average density nodes/sec : 27.5074 -> 16.1504
+
+Average density links/sec : 54.4248 -> 33.1121
+
+File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0014112_0016565.plp
+lattice size: 11275 nodes/ 90532 arcs
+lattice pruned from 11275/90532 to 773/1612
+
+Average density nodes/sec : 31.4996 -> 16.2184
+
+Average density links/sec : 65.6887 -> 35.8598
+
+File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0025913_0028055.plp
+lattice size: 7650 nodes/ 45391 arcs
+lattice pruned from 7650/45391 to 467/890
+
+Average density nodes/sec : 21.7919 -> 13.3458
+
+Average density links/sec : 41.5306 -> 25.8516
+
+File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0028055_0029446.plp
+lattice size: 4734 nodes/ 33525 arcs
+lattice pruned from 4734/33525 to 346/674
+
+Average density nodes/sec : 24.8563 -> 15.4454
+
+Average density links/sec : 48.4195 -> 32.3994
+
+File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0035654_0035890.plp
+lattice size: 1027 nodes/ 6528 arcs
+lattice pruned from 1027/6528 to 77/135
+
+Average density nodes/sec : 32.4895 -> 12.2363
+
+Average density links/sec : 56.9620 -> 33.3333
+
+File: DEV001-00001-20010117-XX2000-en_MFWXXXX_0178428_0178746.plp
+lattice size: 1305 nodes/ 7406 arcs
+lattice pruned from 1305/7406 to 118/231
+
+Average density nodes/sec : 36.9906 -> 13.7931
+
+Average density links/sec : 72.4138 -> 39.1850
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0036973_0037468.plp
+lattice size: 681 nodes/ 3621 arcs
+lattice pruned from 681/3621 to 38/58
+
+Average density nodes/sec : 7.6613 -> 4.6371
+
+Average density links/sec : 11.6935 -> 6.0484
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0065242_0067229.plp
+lattice size: 5861 nodes/ 44422 arcs
+lattice pruned from 5861/44422 to 590/1214
+
+Average density nodes/sec : 29.6781 -> 16.1469
+
+Average density links/sec : 61.0664 -> 38.7324
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0076020_0078926.plp
+lattice size: 8214 nodes/ 54685 arcs
+lattice pruned from 8214/54685 to 825/1811
+
+Average density nodes/sec : 28.3798 -> 15.2047
+
+Average density links/sec : 62.2979 -> 33.2645
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0080252_0081413.plp
+lattice size: 2334 nodes/ 17298 arcs
+lattice pruned from 2334/17298 to 268/747
+
+Average density nodes/sec : 23.0637 -> 12.9088
+
+Average density links/sec : 64.2857 -> 34.9398
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0081413_0082437.plp
+lattice size: 3350 nodes/ 22739 arcs
+lattice pruned from 3350/22739 to 322/750
+
+Average density nodes/sec : 31.4146 -> 17.0732
+
+Average density links/sec : 73.1707 -> 45.6585
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0115617_0116135.plp
+lattice size: 4247 nodes/ 61547 arcs
+length 5.19 nArcLimit 1038 beam adjusted to 75.900001
+lattice pruned from 4247/61547 to 410/1037
+
+Average density nodes/sec : 78.9981 -> 23.6994
+
+Average density links/sec : 199.8073 -> 77.2640
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0116680_0119075.plp
+lattice size: 6605 nodes/ 38670 arcs
+lattice pruned from 6605/38670 to 477/982
+
+Average density nodes/sec : 19.9082 -> 10.2254
+
+Average density links/sec : 40.9850 -> 20.5760
+
+File: DEV001-00002-20010117-XX2000-en_FFWXXXX_0131499_0131787.plp
+lattice size: 357 nodes/ 1620 arcs
+lattice pruned from 357/1620 to 24/33
+
+Average density nodes/sec : 8.3045 -> 5.1903
+
+Average density links/sec : 11.4187 -> 6.5744
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0016565_0017750.plp
+lattice size: 1878 nodes/ 7266 arcs
+lattice pruned from 1878/7266 to 106/168
+
+Average density nodes/sec : 8.9376 -> 5.3963
+
+Average density links/sec : 14.1653 -> 8.0944
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0022270_0023270.plp
+lattice size: 3116 nodes/ 21228 arcs
+lattice pruned from 3116/21228 to 204/412
+
+Average density nodes/sec : 20.3796 -> 11.9880
+
+Average density links/sec : 41.1588 -> 23.1768
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0023270_0023529.plp
+lattice size: 666 nodes/ 2267 arcs
+lattice pruned from 666/2267 to 26/35
+
+Average density nodes/sec : 10.0000 -> 6.9231
+
+Average density links/sec : 13.4615 -> 9.2308
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0023529_0023879.plp
+lattice size: 436 nodes/ 1699 arcs
+lattice pruned from 436/1699 to 32/49
+
+Average density nodes/sec : 9.1168 -> 5.9829
+
+Average density links/sec : 13.9601 -> 9.9715
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0024618_0025188.plp
+lattice size: 1245 nodes/ 5712 arcs
+lattice pruned from 1245/5712 to 70/122
+
+Average density nodes/sec : 12.2592 -> 7.5306
+
+Average density links/sec : 21.3660 -> 11.3835
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0025188_0025913.plp
+lattice size: 930 nodes/ 2881 arcs
+lattice pruned from 930/2881 to 69/102
+
+Average density nodes/sec : 9.5041 -> 5.9229
+
+Average density links/sec : 14.0496 -> 8.4022
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0029446_0031182.plp
+lattice size: 4075 nodes/ 18462 arcs
+lattice pruned from 4075/18462 to 278/463
+
+Average density nodes/sec : 16.0046 -> 8.5204
+
+Average density links/sec : 26.6552 -> 15.4289
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0034229_0034716.plp
+lattice size: 1703 nodes/ 8221 arcs
+lattice pruned from 1703/8221 to 149/268
+
+Average density nodes/sec : 30.5328 -> 19.0574
+
+Average density links/sec : 54.9180 -> 34.8361
+
+File: DEV001-00002-20010117-XX2000-en_MFWXXXX_0034716_0035654.plp
+lattice size: 2326 nodes/ 11175 arcs
+lattice pruned from 2326/11175 to 98/157
+
+Average density nodes/sec : 10.4366 -> 6.4963
+
+Average density links/sec : 16.7199 -> 9.9042
+
+File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0071230_0071778.plp
+lattice size: 2675 nodes/ 19621 arcs
+lattice pruned from 2675/19621 to 206/450
+
+Average density nodes/sec : 37.5228 -> 21.4936
+
+Average density links/sec : 81.9672 -> 52.8233
+
+File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0071778_0073237.plp
+lattice size: 4168 nodes/ 28681 arcs
+lattice pruned from 4168/28681 to 407/920
+
+Average density nodes/sec : 27.8767 -> 13.8356
+
+Average density links/sec : 63.0137 -> 31.0274
+
+File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0074371_0076020.plp
+lattice size: 5052 nodes/ 34018 arcs
+lattice pruned from 5052/34018 to 552/1330
+
+Average density nodes/sec : 33.4545 -> 17.6970
+
+Average density links/sec : 80.6061 -> 46.3030
+
+File: DEV001-00003-20010117-XX2000-en_FFWXXXX_0078926_0080252.plp
+lattice size: 2582 nodes/ 14486 arcs
+lattice pruned from 2582/14486 to 235/453
+
+Average density nodes/sec : 17.7091 -> 8.9676
+
+Average density links/sec : 34.1372 -> 16.2020
+
+File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0005922_0008730.plp
+lattice size: 4472 nodes/ 18460 arcs
+lattice pruned from 4472/18460 to 238/412
+
+Average density nodes/sec : 8.4728 -> 5.6604
+
+Average density links/sec : 14.6671 -> 9.0780
+
+File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0009943_0011247.plp
+lattice size: 2286 nodes/ 11234 arcs
+lattice pruned from 2286/11234 to 170/327
+
+Average density nodes/sec : 13.0268 -> 9.0421
+
+Average density links/sec : 25.0575 -> 16.3218
+
+File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0011247_0012757.plp
+lattice size: 3536 nodes/ 18948 arcs
+lattice pruned from 3536/18948 to 157/258
+
+Average density nodes/sec : 10.3905 -> 6.4196
+
+Average density links/sec : 17.0748 -> 10.1257
+
+File: DEV001-00003-20010117-XX2000-en_MFWXXXX_0054245_0056389.plp
+lattice size: 8195 nodes/ 58612 arcs
+lattice pruned from 8195/58612 to 777/1613
+
+Average density nodes/sec : 36.2238 -> 19.9068
+
+Average density links/sec : 75.1981 -> 43.3566
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0000000_0000492.plp
+lattice size: 1037 nodes/ 5418 arcs
+lattice pruned from 1037/5418 to 52/80
+
+Average density nodes/sec : 10.5477 -> 6.0852
+
+Average density links/sec : 16.2272 -> 10.1420
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0000701_0001230.plp
+lattice size: 2776 nodes/ 16547 arcs
+lattice pruned from 2776/16547 to 160/322
+
+Average density nodes/sec : 30.1887 -> 16.2264
+
+Average density links/sec : 60.7547 -> 33.0189
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0001701_0002049.plp
+lattice size: 1826 nodes/ 9517 arcs
+lattice pruned from 1826/9517 to 94/160
+
+Average density nodes/sec : 26.9341 -> 15.4728
+
+Average density links/sec : 45.8453 -> 28.6533
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0035890_0036973.plp
+lattice size: 3766 nodes/ 24694 arcs
+lattice pruned from 3766/24694 to 290/604
+
+Average density nodes/sec : 26.7528 -> 15.6827
+
+Average density links/sec : 55.7196 -> 32.9336
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0121415_0123065.plp
+lattice size: 12807 nodes/ 248649 arcs
+length 16.51 nArcLimit 3302 beam adjusted to 65.900001
+lattice pruned from 12807/248649 to 963/3287
+
+Average density nodes/sec : 58.3283 -> 12.6590
+
+Average density links/sec : 199.0915 -> 52.8770
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0123934_0124987.plp
+lattice size: 17148 nodes/ 271040 arcs
+length 10.54 nArcLimit 2107 beam adjusted to 85.900001
+lattice pruned from 17148/271040 to 713/2102
+
+Average density nodes/sec : 67.6471 -> 16.2239
+
+Average density links/sec : 199.4307 -> 63.8520
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0175386_0175691.plp
+lattice size: 1219 nodes/ 7924 arcs
+lattice pruned from 1219/7924 to 96/179
+
+Average density nodes/sec : 31.3725 -> 15.3595
+
+Average density links/sec : 58.4967 -> 28.4314
+
+File: DEV001-00004-20010117-XX2000-en_FFWXXXX_0179193_0180999.plp
+lattice size: 15761 nodes/ 164683 arcs
+lattice pruned from 15761/164683 to 1395/3436
+
+Average density nodes/sec : 77.1998 -> 29.3304
+
+Average density links/sec : 190.1494 -> 78.8046
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0024253_0024618.plp
+lattice size: 1662 nodes/ 8252 arcs
+lattice pruned from 1662/8252 to 60/92
+
+Average density nodes/sec : 16.3934 -> 9.8361
+
+Average density links/sec : 25.1366 -> 15.0273
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0067229_0068025.plp
+lattice size: 7801 nodes/ 93324 arcs
+length 7.97 nArcLimit 1593 beam adjusted to 84.300001
+lattice pruned from 7801/93324 to 666/1588
+
+Average density nodes/sec : 83.5634 -> 36.3864
+
+Average density links/sec : 199.2472 -> 100.8783
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0069727_0071230.plp
+lattice size: 14044 nodes/ 150681 arcs
+length 15.04 nArcLimit 3007 beam adjusted to 78.200001
+lattice pruned from 14044/150681 to 1197/2998
+
+Average density nodes/sec : 79.5878 -> 38.0984
+
+Average density links/sec : 199.3351 -> 103.3910
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0073237_0074371.plp
+lattice size: 13292 nodes/ 142878 arcs
+length 11.35 nArcLimit 2269 beam adjusted to 81.000001
+lattice pruned from 13292/142878 to 877/2259
+
+Average density nodes/sec : 77.2687 -> 33.8326
+
+Average density links/sec : 199.0308 -> 91.2775
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0082437_0083726.plp
+lattice size: 15259 nodes/ 175845 arcs
+length 12.90 nArcLimit 2580 beam adjusted to 93.000001
+lattice pruned from 15259/175845 to 1049/2578
+
+Average density nodes/sec : 81.3178 -> 36.2016
+
+Average density links/sec : 199.8450 -> 101.7054
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0085429_0086154.plp
+lattice size: 10485 nodes/ 153761 arcs
+length 7.26 nArcLimit 1451 beam adjusted to 67.500001
+lattice pruned from 10485/153761 to 597/1438
+
+Average density nodes/sec : 82.2314 -> 36.7769
+
+Average density links/sec : 198.0716 -> 96.8320
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0086154_0088514.plp
+lattice size: 20868 nodes/ 235561 arcs
+length 23.61 nArcLimit 4721 beam adjusted to 87.800001
+lattice pruned from 20868/235561 to 1762/4717
+
+Average density nodes/sec : 74.6294 -> 34.1381
+
+Average density links/sec : 199.7882 -> 93.3079
+
+File: DEV001-00004-20010117-XX2000-en_MFWXXXX_0123422_0123441.plp
+lattice size: 131 nodes/ 289 arcs
+length 0.20 nArcLimit 40 beam adjusted to 48.800001
+lattice pruned from 131/289 to 25/39
+
+Average density nodes/sec : 125.0000 -> 90.0000
+
+Average density links/sec : 195.0000 -> 155.0000
+
+File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0146322_0146659.plp
+lattice size: 606 nodes/ 2556 arcs
+lattice pruned from 606/2556 to 77/133
+
+Average density nodes/sec : 22.7811 -> 13.9053
+
+Average density links/sec : 39.3491 -> 24.8521
+
+File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0162300_0163422.plp
+lattice size: 2199 nodes/ 9817 arcs
+lattice pruned from 2199/9817 to 147/273
+
+Average density nodes/sec : 13.0899 -> 8.1033
+
+Average density links/sec : 24.3099 -> 14.3366
+
+File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0163422_0165135.plp
+lattice size: 3063 nodes/ 12381 arcs
+lattice pruned from 3063/12381 to 180/291
+
+Average density nodes/sec : 10.5018 -> 7.0595
+
+Average density links/sec : 16.9778 -> 11.3186
+
+File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0167551_0168717.plp
+lattice size: 3110 nodes/ 15055 arcs
+lattice pruned from 3110/15055 to 258/462
+
+Average density nodes/sec : 22.1080 -> 12.2536
+
+Average density links/sec : 39.5887 -> 22.5364
+
+File: DEV001-00005-20010117-XX2000-en_FFWXXXX_0172865_0175099.plp
+lattice size: 6559 nodes/ 36359 arcs
+lattice pruned from 6559/36359 to 453/885
+
+Average density nodes/sec : 20.2685 -> 10.2013
+
+Average density links/sec : 39.5973 -> 18.9262
+
+File: DEV001-00005-20010117-XX2000-en_MFWXXXX_0002506_0003705.plp
+lattice size: 8400 nodes/ 83164 arcs
+lattice pruned from 8400/83164 to 694/1948
+
+Average density nodes/sec : 57.8333 -> 22.0000
+
+Average density links/sec : 162.3333 -> 58.5000
+
+File: DEV001-00005-20010117-XX2000-en_MFWXXXX_0003705_0005101.plp
+lattice size: 11824 nodes/ 122109 arcs
+lattice pruned from 11824/122109 to 967/2362
+
+Average density nodes/sec : 69.2198 -> 27.5591
+
+Average density links/sec : 169.0766 -> 76.8074
+
+File: DEV001-00005-20010117-XX2000-en_MFWXXXX_0043208_0045175.plp
+lattice size: 5827 nodes/ 33864 arcs
+lattice pruned from 5827/33864 to 474/881
+
+Average density nodes/sec : 24.0854 -> 13.8720
+
+Average density links/sec : 44.7663 -> 26.1179
+
+File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0149113_0150000.plp
+lattice size: 3598 nodes/ 20501 arcs
+lattice pruned from 3598/20501 to 150/234
+
+Average density nodes/sec : 16.8919 -> 10.0225
+
+Average density links/sec : 26.3514 -> 16.7793
+
+File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0150242_0152342.plp
+lattice size: 4436 nodes/ 21192 arcs
+lattice pruned from 4436/21192 to 304/527
+
+Average density nodes/sec : 14.4693 -> 8.9481
+
+Average density links/sec : 25.0833 -> 14.8025
+
+File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0153855_0155569.plp
+lattice size: 3587 nodes/ 18814 arcs
+lattice pruned from 3587/18814 to 218/433
+
+Average density nodes/sec : 12.7114 -> 8.6880
+
+Average density links/sec : 25.2478 -> 17.2595
+
+File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0157149_0157550.plp
+lattice size: 1064 nodes/ 5740 arcs
+lattice pruned from 1064/5740 to 104/227
+
+Average density nodes/sec : 25.8706 -> 15.9204
+
+Average density links/sec : 56.4677 -> 34.0796
+
+File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0159926_0162300.plp
+lattice size: 3916 nodes/ 17113 arcs
+lattice pruned from 3916/17113 to 243/404
+
+Average density nodes/sec : 10.2316 -> 6.3158
+
+Average density links/sec : 17.0105 -> 9.3053
+
+File: DEV001-00006-20010117-XX2000-en_FFWXXXX_0168717_0169787.plp
+lattice size: 1982 nodes/ 10185 arcs
+lattice pruned from 1982/10185 to 216/435
+
+Average density nodes/sec : 20.1681 -> 10.4575
+
+Average density links/sec : 40.6162 -> 21.3819
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0040601_0042202.plp
+lattice size: 2659 nodes/ 10686 arcs
+lattice pruned from 2659/10686 to 201/349
+
+Average density nodes/sec : 12.5468 -> 7.3658
+
+Average density links/sec : 21.7853 -> 12.0474
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0042202_0043208.plp
+lattice size: 5521 nodes/ 62346 arcs
+lattice pruned from 5521/62346 to 698/1977
+
+Average density nodes/sec : 69.3148 -> 32.7706
+
+Average density links/sec : 196.3257 -> 95.9285
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0045175_0045727.plp
+lattice size: 1127 nodes/ 5973 arcs
+lattice pruned from 1127/5973 to 88/164
+
+Average density nodes/sec : 15.9132 -> 8.4991
+
+Average density links/sec : 29.6564 -> 14.1049
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0048375_0049661.plp
+lattice size: 3229 nodes/ 17020 arcs
+lattice pruned from 3229/17020 to 303/672
+
+Average density nodes/sec : 23.5431 -> 13.2090
+
+Average density links/sec : 52.2145 -> 32.7117
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0050749_0051557.plp
+lattice size: 1705 nodes/ 9500 arcs
+lattice pruned from 1705/9500 to 136/252
+
+Average density nodes/sec : 16.8109 -> 9.6415
+
+Average density links/sec : 31.1496 -> 18.1706
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0051557_0054245.plp
+lattice size: 4059 nodes/ 17528 arcs
+lattice pruned from 4059/17528 to 297/507
+
+Average density nodes/sec : 11.0450 -> 6.6196
+
+Average density links/sec : 18.8546 -> 10.5244
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0058831_0059786.plp
+lattice size: 1817 nodes/ 7453 arcs
+lattice pruned from 1817/7453 to 133/258
+
+Average density nodes/sec : 13.9121 -> 8.1590
+
+Average density links/sec : 26.9874 -> 13.3891
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0060244_0061550.plp
+lattice size: 3699 nodes/ 25049 arcs
+lattice pruned from 3699/25049 to 376/864
+
+Average density nodes/sec : 28.7682 -> 14.0015
+
+Average density links/sec : 66.1056 -> 31.8286
+
+File: DEV001-00006-20010117-XX2000-en_MFWXXXX_0062973_0063552.plp
+lattice size: 1003 nodes/ 3869 arcs
+lattice pruned from 1003/3869 to 56/93
+
+Average density nodes/sec : 9.6552 -> 6.3793
+
+Average density links/sec : 16.0345 -> 9.3103
+
+File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0039892_0040149.plp
+lattice size: 359 nodes/ 1258 arcs
+lattice pruned from 359/1258 to 31/51
+
+Average density nodes/sec : 12.0155 -> 7.7519
+
+Average density links/sec : 19.7674 -> 11.2403
+
+File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0095757_0097335.plp
+lattice size: 6303 nodes/ 38232 arcs
+lattice pruned from 6303/38232 to 438/864
+
+Average density nodes/sec : 27.7391 -> 14.6928
+
+Average density links/sec : 54.7182 -> 29.0690
+
+File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0106906_0108175.plp
+lattice size: 4160 nodes/ 27443 arcs
+lattice pruned from 4160/27443 to 455/1003
+
+Average density nodes/sec : 35.8268 -> 18.3465
+
+Average density links/sec : 78.9764 -> 42.8346
+
+File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0110137_0111131.plp
+lattice size: 5631 nodes/ 43926 arcs
+lattice pruned from 5631/43926 to 591/1577
+
+Average density nodes/sec : 59.3970 -> 29.7487
+
+Average density links/sec : 158.4925 -> 88.1407
+
+File: DEV001-00007-20010117-XX2000-en_FFWXXXX_0115240_0115617.plp
+lattice size: 1808 nodes/ 10542 arcs
+lattice pruned from 1808/10542 to 143/257
+
+Average density nodes/sec : 37.8307 -> 22.4868
+
+Average density links/sec : 67.9894 -> 48.6772
+
+File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0045727_0047259.plp
+lattice size: 5092 nodes/ 31705 arcs
+lattice pruned from 5092/31705 to 364/710
+
+Average density nodes/sec : 23.7443 -> 13.6986
+
+Average density links/sec : 46.3144 -> 25.1142
+
+File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0047259_0048375.plp
+lattice size: 3464 nodes/ 21233 arcs
+lattice pruned from 3464/21233 to 318/745
+
+Average density nodes/sec : 28.4691 -> 15.1298
+
+Average density links/sec : 66.6965 -> 33.6616
+
+File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0049661_0050749.plp
+lattice size: 2859 nodes/ 16178 arcs
+lattice pruned from 2859/16178 to 259/533
+
+Average density nodes/sec : 23.7833 -> 13.1313
+
+Average density links/sec : 48.9440 -> 27.7319
+
+File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0056389_0058831.plp
+lattice size: 14226 nodes/ 111540 arcs
+lattice pruned from 14226/111540 to 1236/2820
+
+Average density nodes/sec : 50.5935 -> 25.3377
+
+Average density links/sec : 115.4318 -> 55.4646
+
+File: DEV001-00007-20010117-XX2000-en_MFWXXXX_0061550_0062973.plp
+lattice size: 5655 nodes/ 42181 arcs
+lattice pruned from 5655/42181 to 480/1037
+
+Average density nodes/sec : 33.7079 -> 18.3989
+
+Average density links/sec : 72.8230 -> 40.2388
+
+File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0017750_0018071.plp
+lattice size: 1310 nodes/ 7213 arcs
+lattice pruned from 1310/7213 to 79/130
+
+Average density nodes/sec : 24.5342 -> 13.6646
+
+Average density links/sec : 40.3727 -> 23.2919
+
+File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0018071_0019834.plp
+lattice size: 21416 nodes/ 299187 arcs
+length 17.64 nArcLimit 3528 beam adjusted to 80.100001
+lattice pruned from 21416/299187 to 1439/3521
+
+Average density nodes/sec : 81.5760 -> 34.4671
+
+Average density links/sec : 199.6032 -> 99.9433
+
+File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0019834_0020455.plp
+lattice size: 2277 nodes/ 19613 arcs
+lattice pruned from 2277/19613 to 262/690
+
+Average density nodes/sec : 42.1222 -> 21.7042
+
+Average density links/sec : 110.9325 -> 61.0932
+
+File: DEV001-00008-20010117-XX2000-en_FFWXXXX_0020939_0022270.plp
+lattice size: 3910 nodes/ 23002 arcs
+lattice pruned from 3910/23002 to 383/802
+
+Average density nodes/sec : 28.7538 -> 14.6396
+
+Average density links/sec : 60.2102 -> 33.5586
+
+File: DEV001-00008-20010117-XX2000-en_MFWXXXX_0008730_0009943.plp
+lattice size: 5118 nodes/ 36429 arcs
+lattice pruned from 5118/36429 to 467/1246
+
+Average density nodes/sec : 38.4679 -> 18.5338
+
+Average density links/sec : 102.6359 -> 55.0247
+
+File: DEV001-00008-20010117-XX2000-en_MFWXXXX_0031182_0034010.plp
+lattice size: 15139 nodes/ 134270 arcs
+lattice pruned from 15139/134270 to 1391/3262
+
+Average density nodes/sec : 49.1693 -> 25.9809
+
+Average density links/sec : 115.3058 -> 67.9392
+
+File: DEV001-00008-20010117-XX2000-en_MFWXXXX_0034010_0034229.plp
+lattice size: 2405 nodes/ 27774 arcs
+length 2.20 nArcLimit 440 beam adjusted to 57.700001
+lattice pruned from 2405/27774 to 162/440
+
+Average density nodes/sec : 73.6364 -> 35.0000
+
+Average density links/sec : 200.0000 -> 91.8182
+
+File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0101586_0102044.plp
+lattice size: 1422 nodes/ 10171 arcs
+lattice pruned from 1422/10171 to 123/252
+
+Average density nodes/sec : 26.7974 -> 13.0719
+
+Average density links/sec : 54.9020 -> 28.3224
+
+File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0102044_0103457.plp
+lattice size: 3705 nodes/ 18538 arcs
+lattice pruned from 3705/18538 to 242/459
+
+Average density nodes/sec : 17.1146 -> 10.1132
+
+Average density links/sec : 32.4611 -> 18.2461
+
+File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0105551_0106906.plp
+lattice size: 3422 nodes/ 16774 arcs
+lattice pruned from 3422/16774 to 252/446
+
+Average density nodes/sec : 18.5841 -> 9.8820
+
+Average density links/sec : 32.8909 -> 18.2891
+
+File: DEV001-00009-20010117-XX2000-en_FFWXXXX_0131787_0132786.plp
+lattice size: 3252 nodes/ 19354 arcs
+lattice pruned from 3252/19354 to 319/632
+
+Average density nodes/sec : 31.9000 -> 17.7000
+
+Average density links/sec : 63.2000 -> 39.2000
+
+File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0155569_0157149.plp
+lattice size: 4856 nodes/ 30593 arcs
+lattice pruned from 4856/30593 to 321/594
+
+Average density nodes/sec : 20.3036 -> 10.3732
+
+Average density links/sec : 37.5712 -> 19.2283
+
+File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0157550_0159926.plp
+lattice size: 4847 nodes/ 22610 arcs
+lattice pruned from 4847/22610 to 291/505
+
+Average density nodes/sec : 12.2423 -> 7.0257
+
+Average density links/sec : 21.2453 -> 12.0740
+
+File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0169787_0170731.plp
+lattice size: 3269 nodes/ 19641 arcs
+lattice pruned from 3269/19641 to 223/443
+
+Average density nodes/sec : 23.5979 -> 10.2646
+
+Average density links/sec : 46.8783 -> 20.3175
+
+File: DEV001-00009-20010117-XX2000-en_MFWXXXX_0170731_0172865.plp
+lattice size: 7945 nodes/ 56667 arcs
+lattice pruned from 7945/56667 to 829/1885
+
+Average density nodes/sec : 38.8290 -> 17.5644
+
+Average density links/sec : 88.2904 -> 40.5152
+
+File: DEV001-00010-20010117-XX2000-en_FFWXXXX_0143230_0144629.plp
+lattice size: 1759 nodes/ 8679 arcs
+lattice pruned from 1759/8679 to 173/311
+
+Average density nodes/sec : 12.3571 -> 7.7143
+
+Average density links/sec : 22.2143 -> 13.2143
+
+File: DEV001-00010-20010117-XX2000-en_FFWXXXX_0144629_0146322.plp
+lattice size: 2066 nodes/ 8232 arcs
+lattice pruned from 2066/8232 to 146/242
+
+Average density nodes/sec : 8.6187 -> 5.5490
+
+Average density links/sec : 14.2857 -> 8.2645
+
+File: DEV001-00010-20010117-XX2000-en_FFWXXXX_0146659_0149113.plp
+lattice size: 7581 nodes/ 45055 arcs
+lattice pruned from 7581/45055 to 436/793
+
+Average density nodes/sec : 17.7597 -> 9.4908
+
+Average density links/sec : 32.3014 -> 16.9450
+
+File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0119075_0121027.plp
+lattice size: 35802 nodes/ 609468 arcs
+length 19.53 nArcLimit 3906 beam adjusted to 70.400001
+lattice pruned from 35802/609468 to 1367/3901
+
+Average density nodes/sec : 69.9949 -> 23.0927
+
+Average density links/sec : 199.7440 -> 73.9375
+
+File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0135629_0136894.plp
+lattice size: 2815 nodes/ 17207 arcs
+lattice pruned from 2815/17207 to 210/435
+
+Average density nodes/sec : 16.5877 -> 8.6888
+
+Average density links/sec : 34.3602 -> 17.2986
+
+File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0136894_0137935.plp
+lattice size: 5023 nodes/ 42039 arcs
+lattice pruned from 5023/42039 to 544/1210
+
+Average density nodes/sec : 52.2073 -> 25.1440
+
+Average density links/sec : 116.1228 -> 64.4914
+
+File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0141204_0143230.plp
+lattice size: 9551 nodes/ 82177 arcs
+lattice pruned from 9551/82177 to 945/2208
+
+Average density nodes/sec : 46.6206 -> 23.3350
+
+Average density links/sec : 108.9295 -> 58.8061
+
+File: DEV001-00010-20010117-XX2000-en_MFWXXXX_0165135_0167551.plp
+lattice size: 9045 nodes/ 68057 arcs
+lattice pruned from 9045/68057 to 785/1837
+
+Average density nodes/sec : 32.4783 -> 16.5081
+
+Average density links/sec : 76.0033 -> 35.6227
+
+File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0127887_0130462.plp
+lattice size: 4781 nodes/ 22753 arcs
+lattice pruned from 4781/22753 to 284/507
+
+Average density nodes/sec : 11.0248 -> 6.9876
+
+Average density links/sec : 19.6817 -> 10.9860
+
+File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0130462_0131499.plp
+lattice size: 1791 nodes/ 7663 arcs
+lattice pruned from 1791/7663 to 175/301
+
+Average density nodes/sec : 16.8593 -> 10.5973
+
+Average density links/sec : 28.9981 -> 18.7861
+
+File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0132786_0135629.plp
+lattice size: 4364 nodes/ 17870 arcs
+lattice pruned from 4364/17870 to 318/509
+
+Average density nodes/sec : 11.1814 -> 6.9269
+
+Average density links/sec : 17.8973 -> 10.9001
+
+File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0137935_0139120.plp
+lattice size: 1840 nodes/ 7038 arcs
+lattice pruned from 1840/7038 to 116/181
+
+Average density nodes/sec : 9.7808 -> 6.3238
+
+Average density links/sec : 15.2614 -> 9.9494
+
+File: DEV001-00011-20010117-XX2000-en_FFWXXXX_0139120_0141204.plp
+lattice size: 3331 nodes/ 14048 arcs
+lattice pruned from 3331/14048 to 206/344
+
+Average density nodes/sec : 9.8801 -> 6.0432
+
+Average density links/sec : 16.4988 -> 9.2566
+
+File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0037850_0038724.plp
+lattice size: 2895 nodes/ 15077 arcs
+lattice pruned from 2895/15077 to 213/399
+
+Average density nodes/sec : 24.3429 -> 13.0286
+
+Average density links/sec : 45.6000 -> 26.1714
+
+File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0040149_0040601.plp
+lattice size: 1275 nodes/ 7007 arcs
+lattice pruned from 1275/7007 to 107/225
+
+Average density nodes/sec : 23.6203 -> 13.6865
+
+Average density links/sec : 49.6689 -> 33.3333
+
+File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0063552_0065242.plp
+lattice size: 5308 nodes/ 35142 arcs
+lattice pruned from 5308/35142 to 659/1511
+
+Average density nodes/sec : 38.9710 -> 18.8054
+
+Average density links/sec : 89.3554 -> 48.3737
+
+File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0116135_0116680.plp
+lattice size: 2434 nodes/ 13138 arcs
+lattice pruned from 2434/13138 to 216/417
+
+Average density nodes/sec : 39.5604 -> 21.7949
+
+Average density links/sec : 76.3736 -> 48.3516
+
+File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0124987_0126183.plp
+lattice size: 2111 nodes/ 9927 arcs
+lattice pruned from 2111/9927 to 180/309
+
+Average density nodes/sec : 15.0376 -> 8.4378
+
+Average density links/sec : 25.8145 -> 14.5363
+
+File: DEV001-00012-20010117-XX2000-en_FFWXXXX_0126183_0127887.plp
+lattice size: 4064 nodes/ 23530 arcs
+lattice pruned from 4064/23530 to 423/909
+
+Average density nodes/sec : 24.8094 -> 13.8416
+
+Average density links/sec : 53.3138 -> 27.7419
+
+File: DEV001-00013-20010117-XX2000-en_FFWXXXX_0038724_0039892.plp
+lattice size: 2122 nodes/ 10609 arcs
+lattice pruned from 2122/10609 to 218/408
+
+Average density nodes/sec : 18.6484 -> 10.9495
+
+Average density links/sec : 34.9016 -> 20.5304
+
+File: DEV001-00013-20010117-XX2000-en_FFWXXXX_0097335_0099178.plp
+lattice size: 4891 nodes/ 27776 arcs
+lattice pruned from 4891/27776 to 391/773
+
+Average density nodes/sec : 21.2039 -> 11.7679
+
+Average density links/sec : 41.9197 -> 25.3796
+
+File: DEV001-00013-20010117-XX2000-en_FFWXXXX_0152836_0153855.plp
+lattice size: 2982 nodes/ 15015 arcs
+lattice pruned from 2982/15015 to 226/421
+
+Average density nodes/sec : 22.1569 -> 12.2549
+
+Average density links/sec : 41.2745 -> 22.1569
+
+File: DEV001-00014-20010117-XX2000-en_FFWXXXX_0099178_0100997.plp
+lattice size: 4150 nodes/ 28252 arcs
+lattice pruned from 4150/28252 to 464/1267
+
+Average density nodes/sec : 25.4945 -> 13.5714
+
+Average density links/sec : 69.6154 -> 36.5934
+
+File: DEV001-00014-20010117-XX2000-en_FFWXXXX_0103457_0104538.plp
+lattice size: 4003 nodes/ 21016 arcs
+lattice pruned from 4003/21016 to 320/573
+
+Average density nodes/sec : 29.5749 -> 16.3586
+
+Average density links/sec : 52.9575 -> 33.0869
+
+File: DEV001-00014-20010117-XX2000-en_FFWXXXX_0113251_0115240.plp
+lattice size: 6835 nodes/ 44700 arcs
+lattice pruned from 6835/44700 to 591/1151
+
+Average density nodes/sec : 29.6985 -> 16.2312
+
+Average density links/sec : 57.8392 -> 33.1658
+
+File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0100997_0101586.plp
+lattice size: 1935 nodes/ 12146 arcs
+lattice pruned from 1935/12146 to 188/423
+
+Average density nodes/sec : 31.8644 -> 17.6271
+
+Average density links/sec : 71.6949 -> 39.1525
+
+File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0104538_0105551.plp
+lattice size: 9185 nodes/ 101016 arcs
+length 10.14 nArcLimit 2028 beam adjusted to 86.600001
+lattice pruned from 9185/101016 to 845/2028
+
+Average density nodes/sec : 83.3333 -> 40.9270
+
+Average density links/sec : 200.0000 -> 101.7751
+
+File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0108175_0110137.plp
+lattice size: 6456 nodes/ 44421 arcs
+lattice pruned from 6456/44421 to 702/1599
+
+Average density nodes/sec : 35.7616 -> 17.6261
+
+Average density links/sec : 81.4570 -> 43.4539
+
+File: DEV001-00015-20010117-XX2000-en_FFWXXXX_0111131_0113251.plp
+lattice size: 5917 nodes/ 38502 arcs
+lattice pruned from 5917/38502 to 436/908
+
+Average density nodes/sec : 20.5563 -> 11.4097
+
+Average density links/sec : 42.8100 -> 24.7996
+
+File: DEV001-T0001-20010117-XX2000-en_FFTXXXX_0089663_0091686.plp
+lattice size: 11461 nodes/ 97986 arcs
+lattice pruned from 11461/97986 to 938/2236
+
+Average density nodes/sec : 46.3439 -> 19.5652
+
+Average density links/sec : 110.4743 -> 48.1719
+
+
+HTK Configuration Parameters[15]
+  Module/Tool     Parameter                  Value
+                  LATOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LABOFILEMASK    %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LATFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  LABFILEMASK     %%%%%%-?????%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.???
+                  COMPRESSMERGE              FALSE
+                  FIXBADLATS                  TRUE
+#                 HLANGMODFILTER   gunzip -cd $.gz
+                  HNETOFILTER       gzip -c > $.gz
+                  HNETFILTER        gunzip -c $.gz
+  HLM             RAWMITFORMAT                TRUE
+  HLM             TRACE                          1
+  HLAT            TRACE                         11
+                  ENDWORD                     </s>
+                  STARTWORD                    <s>
+                  NONUMESCAPES                TRUE
+

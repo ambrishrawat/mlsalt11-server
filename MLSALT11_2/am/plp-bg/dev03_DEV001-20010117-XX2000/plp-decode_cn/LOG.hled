@@ -1,0 +1,18 @@
+base/bin/HLEd -A -D -V -i plp/am/plp-bg/dev03_DEV001-20010117-XX2000/plp-decode_cn/align.mlf -l * -X rec lib/edfiles/delsil.led plp/am/plp-bg/dev03_DEV001-20010117-XX2000/plp-decode_cn/lattices.mlf 
+
+No HTK Configuration Parameters Set
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HLEd       3.4.1      CUED   12/03/09  : $Id: HLEd.c,v 1.1.1.1 2006/10/11 09:55:01 jal58 Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.1.1.1 2006/10/11 09:54:58 jal58 Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.1.1.1 2006/10/11 09:54:59 jal58 Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+HDict      3.4.1      CUED   12/03/09  : $Id: HDict.c,v 1.1.1.1 2006/10/11 09:54:57 jal58 Exp $
+
+
+No HTK Configuration Parameters Set
+
