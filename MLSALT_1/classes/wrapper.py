@@ -67,11 +67,11 @@ def lm_merge(language_model_path_list, language_model_coefficient_list, new_lang
     os.system(merge_function_call)
 
 
-def determinize_lats(episode, lattice_parent_dir, pass_for_lattice, save_dir):
+def determinize_lats(episode, lattice_parent_dir, pass_for_lattice, save_dir,outpass_param = 'merge'):
     # it is looking for lattice in (lattice_parent_director)/(episode)/(pass_for_lattice)
     # will put the determinized lattice in (save_dir)/(episode)/merge/lattices
 
-    determinize_lats_function_call = "./scripts/mergelats.sh " + episode + " " + lattice_parent_dir + " " + pass_for_lattice + \
+    determinize_lats_function_call = "./scripts/mergelats.sh -OUTPASS "+outpass_param+" " + episode + " " + lattice_parent_dir + " " + pass_for_lattice + \
         " " + save_dir
 
     os.system(determinize_lats_function_call)

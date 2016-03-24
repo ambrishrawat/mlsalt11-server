@@ -63,7 +63,7 @@ def step2():
 
 		htk.lm_rescore(episode,'InterpolatedLMs/lm'+epi_list_tag,parent_dir,'lm_YTBEdev_rescore')
 
-def step2_1():
+def step3():
 	'''
 	Generate episode specific interpolated language models and get the updated lattices
 	'''
@@ -71,7 +71,7 @@ def step2_1():
 	epi_list_tag = 'YTBEdev'
 	epi_list = get_episode_list(epi_list_tag)
 	for episode in epi_list:
-		convert('models/plp-lmYTBEdev/'+episode+'/rescore/rescore.mlf','DATFiles/'+episode+'_lm_'++'.dat')	
+		convert('models/'+episode+'/lm_YTBEdev_rescore/rescore.mlf','DATFiles/'+episode+'_lm_YTBEdev.dat')	
 		p = []
         	lm_list = ['lms/lm1','lms/lm2','lms/lm3','lms/lm4','lms/lm5']
         	for i,language_dir in enumerate(lm_list):
@@ -99,8 +99,8 @@ def step4():
 	epi_list = get_episode_list(epi_list_tag)
 	for episode in epi_list:
 
-		htk.determinize_lats(episode, 'lattices', 'lm_inter_supervised', parent_dir)
-		htk.am_rescore(episode, parent_dir, 'merge', parent_dir, 'grph', 'grph_rescored')
+		htk.determinize_lats(episode, 'lattices', 'lm_inter_supervised', parent_dir, 'merge_lm_inter_supervised')
+		htk.am_rescore(episode, parent_dir, 'merge_lm_inter_supervised', parent_dir, 'grph', 'grph_rescored')
 	
 	pass
 
@@ -170,9 +170,9 @@ def step7():
 if __name__ == "__main__":
 	#step0()
 	#step1()
-	step2()
+	#step2()
 	#step3()
-	#step4()
+	step4()
 	#step5()
 	#step6()
 	pass
