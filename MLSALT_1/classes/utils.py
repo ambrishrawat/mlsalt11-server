@@ -4,6 +4,12 @@ import scipy as sc
 import xml.etree.ElementTree as et
 import xml.dom.minidom as minidom
 
+def get_episode_list(fpath):
+        with open(fpath) as f:
+                l = f.readlines()
+        l = [e.strip() for e in l]
+        return l
+
 def em(l_old,episode):
 	#l_old = np.matrix([[0.0],[0.0],[0.0],[0.0],[0.0]])
 	s = np.matrix((np.loadtxt('./Stream/stream_'+episode+'_lm1')))

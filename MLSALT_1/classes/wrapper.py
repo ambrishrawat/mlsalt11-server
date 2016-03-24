@@ -13,14 +13,14 @@ def score(parent_dir, show_list_tag, mlf_location):
     print score_function_call
     os.system(score_function_call)
 
-def lm_rescore(episode, language_dir, save_dir):
+def lm_rescore(episode, language_dir, save_dir, outpass_param = 'rescore'):
     # rescore lattice and gives you one best hypothesis in the save_dir (which is the parent directory for score)
 
     # episode - name of the episode (lattices) to rescore using your language model
     # language_dir - location of the new language model, path to file
     # save_dir - become parent directory for rescore
 
-    lm_rescore_funtion_call = "./scripts/lmrescore.sh " + episode + " lattices decode " + language_dir \
+    lm_rescore_funtion_call = "./scripts/lmrescore.sh -OUTPASS "+output_param+" " + episode + " lattices decode " + language_dir \
                     + " " + save_dir + " FALSE"
 
     os.system(lm_rescore_funtion_call)
