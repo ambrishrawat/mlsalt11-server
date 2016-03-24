@@ -20,7 +20,7 @@ def lm_rescore(episode, language_dir, save_dir, outpass_param = 'rescore'):
     # language_dir - location of the new language model, path to file
     # save_dir - become parent directory for rescore
 
-    lm_rescore_funtion_call = "./scripts/lmrescore.sh -OUTPASS "+output_param+" " + episode + " lattices decode " + language_dir \
+    lm_rescore_funtion_call = "./scripts/lmrescore.sh -OUTPASS "+outpass_param+" " + episode + " lattices decode " + language_dir \
                     + " " + save_dir + " FALSE"
 
     os.system(lm_rescore_funtion_call)

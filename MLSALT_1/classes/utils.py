@@ -5,7 +5,7 @@ import xml.etree.ElementTree as et
 import xml.dom.minidom as minidom
 
 def get_episode_list(fpath):
-        with open(fpath) as f:
+        with open('/home/ar773/MLSALT11/lib/testlists/'+fpath+'.lst') as f:
                 l = f.readlines()
         l = [e.strip() for e in l]
         return l
